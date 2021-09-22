@@ -1,0 +1,11 @@
+{
+  "version": 2,
+  "dgSpecHash": "Z6PSw8Fkq2xHtJzO1GwlpliXpSGAAApUPbzQ/t3biO6+APLtwMlGQ1ci87RTH8boWXvT5NGfleIIZT9MUUn1cQ==",
+  "success": true,
+  "projectFilePath": "C:\\mascota feliz\\Veterinaria.App\\Veterinaria.App.Dominio\\Veterinaria.App.Dominio.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\mateo\\.nuget\\packages\\microsoft.netcore.platforms\\1.1.0\\microsoft.netcore.platforms.1.1.0.nupkg.sha512",
+    "C:\\Users\\mateo\\.nuget\\packages\\netstandard.library\\2.0.3\\netstandard.library.2.0.3.nupkg.sha512"
+  ],
+  "logs": []
+}
