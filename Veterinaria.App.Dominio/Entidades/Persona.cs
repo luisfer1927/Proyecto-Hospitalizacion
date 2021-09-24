@@ -6,5 +6,6 @@ namespace Veterinaria.App.Dominio
       public string Nombre{get;set;}
       public string Apellidos{get;set;}
       public string Telefono{get;set;}
+      public int Id {get;set;}
   }  
 }
