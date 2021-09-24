@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\MascotaFeliz\\Veterinaria.App\\Veterinaria.App.Persistencia\\Veterinaria.App.Persistencia.csproj": {}
+    "C:\\proyecto\\Proyecto-MASCOTAFELIZ-CYBERLOWE\\Veterinaria.App.Persistencia\\Veterinaria.App.Persistencia.csproj": {}
   },
   "projects": {
-    "C:\\MascotaFeliz\\Veterinaria.App\\Veterinaria.App.Persistencia\\Veterinaria.App.Persistencia.csproj": {
+    "C:\\proyecto\\Proyecto-MASCOTAFELIZ-CYBERLOWE\\Veterinaria.App.Persistencia\\Veterinaria.App.Persistencia.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\MascotaFeliz\\Veterinaria.App\\Veterinaria.App.Persistencia\\Veterinaria.App.Persistencia.csproj",
+        "projectUniqueName": "C:\\proyecto\\Proyecto-MASCOTAFELIZ-CYBERLOWE\\Veterinaria.App.Persistencia\\Veterinaria.App.Persistencia.csproj",
         "projectName": "Veterinaria.App.Persistencia",
-        "projectPath": "C:\\MascotaFeliz\\Veterinaria.App\\Veterinaria.App.Persistencia\\Veterinaria.App.Persistencia.csproj",
+        "projectPath": "C:\\proyecto\\Proyecto-MASCOTAFELIZ-CYBERLOWE\\Veterinaria.App.Persistencia\\Veterinaria.App.Persistencia.csproj",
         "packagesPath": "C:\\Users\\mateo\\.nuget\\packages\\",
-        "outputPath": "C:\\MascotaFeliz\\Veterinaria.App\\Veterinaria.App.Persistencia\\obj\\",
+        "outputPath": "C:\\proyecto\\Proyecto-MASCOTAFELIZ-CYBERLOWE\\Veterinaria.App.Persistencia\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\mateo\\AppData\\Roaming\\NuGet\\NuGet.Config"
@@ -36,6 +36,10 @@
       "frameworks": {
         "netstandard2.1": {
           "dependencies": {
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[5.0.0, )"
+            },
             "Microsoft.EntityFrameworkCore.Design": {
               "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
               "suppressParent": "All",
@@ -68,7 +72,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.412\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.413\\RuntimeIdentifierGraph.json"
         }
       }
     }
