@@ -1520,6 +1520,20 @@
         "runtime": {
           "lib/netstandard1.3/System.Xml.XmlSerializer.dll": {}
         }
+      },
+      "Veterinaria.App.Dominio/1.0.0": {
+        "type": "project",
+        "framework": ".NETStandard,Version=v2.1",
+        "dependencies": {
+          "Microsoft.EntityFrameworkCore": "5.0.0",
+          "Microsoft.EntityFrameworkCore.SqlServer": "5.0.0"
+        },
+        "compile": {
+          "bin/placeholder/Veterinaria.App.Dominio.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Veterinaria.App.Dominio.dll": {}
+        }
       }
     }
   },
@@ -5788,6 +5802,11 @@
         "system.xml.xmlserializer.4.3.0.nupkg.sha512",
         "system.xml.xmlserializer.nuspec"
       ]
+    },
+    "Veterinaria.App.Dominio/1.0.0": {
+      "type": "project",
+      "path": "../Veterinaria.App.Dominio/Veterinaria.App.Dominio.csproj",
+      "msbuildProject": "../Veterinaria.App.Dominio/Veterinaria.App.Dominio.csproj"
     }
   },
   "projectFileDependencyGroups": {
@@ -5795,7 +5814,8 @@
       "Microsoft.EntityFrameworkCore >= 5.0.0",
       "Microsoft.EntityFrameworkCore.Design >= 5.0.0",
       "Microsoft.EntityFrameworkCore.SqlServer >= 5.0.0",
-      "Microsoft.EntityFrameworkCore.Tools >= 5.0.0"
+      "Microsoft.EntityFrameworkCore.Tools >= 5.0.0",
+      "Veterinaria.App.Dominio >= 1.0.0"
     ]
   },
   "packageFolders": {
@@ -5804,11 +5824,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\proyecto\\Proyecto-MASCOTAFELIZ-CYBERLOWE\\Veterinaria.App.Consola\\Veterinaria.App.Consola.csproj",
+      "projectUniqueName": "C:\\proyecto\\Veterinaria.App\\veterinaria.App.Consola\\Veterinaria.App.Consola.csproj",
       "projectName": "Veterinaria.App.Consola",
-      "projectPath": "C:\\proyecto\\Proyecto-MASCOTAFELIZ-CYBERLOWE\\Veterinaria.App.Consola\\Veterinaria.App.Consola.csproj",
+      "projectPath": "C:\\proyecto\\Veterinaria.App\\veterinaria.App.Consola\\Veterinaria.App.Consola.csproj",
       "packagesPath": "C:\\Users\\mateo\\.nuget\\packages\\",
-      "outputPath": "C:\\proyecto\\Proyecto-MASCOTAFELIZ-CYBERLOWE\\Veterinaria.App.Consola\\obj\\",
+      "outputPath": "C:\\proyecto\\Veterinaria.App\\veterinaria.App.Consola\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\mateo\\AppData\\Roaming\\NuGet\\NuGet.Config"
@@ -5821,7 +5841,11 @@
       },
       "frameworks": {
         "netcoreapp3.1": {
-          "projectReferences": {}
+          "projectReferences": {
+            "C:\\proyecto\\Veterinaria.App\\Veterinaria.App.Dominio\\Veterinaria.App.Dominio.csproj": {
+              "projectPath": "C:\\proyecto\\Veterinaria.App\\Veterinaria.App.Dominio\\Veterinaria.App.Dominio.csproj"
+            }
+          }
         }
       },
       "warningProperties": {

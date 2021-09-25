@@ -1,4 +1,5 @@
 ﻿using System;
+using Veterinaria.App.Persistencia;
 
 namespace Veterinaria.App.Consola
 {

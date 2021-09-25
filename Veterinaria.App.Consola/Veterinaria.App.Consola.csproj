@@ -18,4 +18,8 @@
     </PackageReference>
   </ItemGroup>
 
+  <ItemGroup>
+    <ProjectReference Include="..\Veterinaria.App.Dominio\Veterinaria.App.Dominio.csproj" />
+  </ItemGroup>
+
 </Project>

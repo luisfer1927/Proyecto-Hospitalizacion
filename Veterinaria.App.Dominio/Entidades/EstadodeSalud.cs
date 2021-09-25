@@ -1,7 +1,7 @@
 using System;
 namespace Veterinaria.App.Dominio
 {
-  public class EstadoDeSalud
+  public class EstadodeSalud
   {
       public double temperatura{get;set;}
       public double Frecu_Respi{get;set;}

@@ -1,4 +1,6 @@
 using Microsoft.EntityFrameworkCore;
+using Veterinaria.App.Dominio;
+
     namespace Veterinaria.App.Persistencia 
     { 
         public class AppContext : DbContext 
@@ -9,5 +11,14 @@ using Microsoft.EntityFrameworkCore;
             public DbSet<Mascota> mascota {get;set;}
             public DbSet<Visita> visita {get;set;}
             public DbSet<EstadodeSalud> estadosalud {get;set;}
+
+        protected override void OnConfiguring(DbContextOptionsBuilder optionBuilder)
+    {
+        if(!optionBuilder.IsConfigured)
+        {
+          optionBuilder.UseSqlServer("Data Source = (localdb)\\MSSQLLocalDB; Initial Catalog = VeterinariaData");
+        }
+    }
+
         }
     }
