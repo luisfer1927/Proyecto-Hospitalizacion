@@ -1,4 +1,6 @@
 using System;
+using System.ComponentModel.DataAnnotations;
+
 namespace Veterinaria.App.Dominio
 {
   public class Propietario:Persona

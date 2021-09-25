@@ -3,6 +3,7 @@ namespace Veterinaria.App.Dominio
 {
   public class EstadodeSalud
   {
+      public int id{get;set;}
       public double temperatura{get;set;}
       public double Frecu_Respi{get;set;}
       public double Frecu_Cardia{get;set;}

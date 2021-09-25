@@ -1534,6 +1534,21 @@
         "runtime": {
           "bin/placeholder/Veterinaria.App.Dominio.dll": {}
         }
+      },
+      "Veterinaria.App.Persistencia/1.0.0": {
+        "type": "project",
+        "framework": ".NETStandard,Version=v2.1",
+        "dependencies": {
+          "Microsoft.EntityFrameworkCore": "5.0.0",
+          "Microsoft.EntityFrameworkCore.SqlServer": "5.0.0",
+          "Veterinaria.App.Dominio": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/Veterinaria.App.Persistencia.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Veterinaria.App.Persistencia.dll": {}
+        }
       }
     }
   },
@@ -5807,6 +5822,11 @@
       "type": "project",
       "path": "../Veterinaria.App.Dominio/Veterinaria.App.Dominio.csproj",
       "msbuildProject": "../Veterinaria.App.Dominio/Veterinaria.App.Dominio.csproj"
+    },
+    "Veterinaria.App.Persistencia/1.0.0": {
+      "type": "project",
+      "path": "../Veterinaria.App.Persistencia/Veterinaria.App.Persistencia.csproj",
+      "msbuildProject": "../Veterinaria.App.Persistencia/Veterinaria.App.Persistencia.csproj"
     }
   },
   "projectFileDependencyGroups": {
@@ -5815,7 +5835,8 @@
       "Microsoft.EntityFrameworkCore.Design >= 5.0.0",
       "Microsoft.EntityFrameworkCore.SqlServer >= 5.0.0",
       "Microsoft.EntityFrameworkCore.Tools >= 5.0.0",
-      "Veterinaria.App.Dominio >= 1.0.0"
+      "Veterinaria.App.Dominio >= 1.0.0",
+      "Veterinaria.App.Persistencia >= 1.0.0"
     ]
   },
   "packageFolders": {
@@ -5844,6 +5865,9 @@
           "projectReferences": {
             "C:\\proyecto\\Veterinaria.App\\Veterinaria.App.Dominio\\Veterinaria.App.Dominio.csproj": {
               "projectPath": "C:\\proyecto\\Veterinaria.App\\Veterinaria.App.Dominio\\Veterinaria.App.Dominio.csproj"
+            },
+            "C:\\proyecto\\Veterinaria.App\\Veterinaria.App.Persistencia\\Veterinaria.App.Persistencia.csproj": {
+              "projectPath": "C:\\proyecto\\Veterinaria.App\\Veterinaria.App.Persistencia\\Veterinaria.App.Persistencia.csproj"
             }
           }
         }

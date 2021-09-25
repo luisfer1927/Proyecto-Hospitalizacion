@@ -62,3 +62,7 @@ C:\proyecto\Veterinaria.App\veterinaria.App.Consola\obj\Debug\netcoreapp3.1\Vete
 C:\proyecto\Veterinaria.App\veterinaria.App.Consola\obj\Debug\netcoreapp3.1\Veterinaria.App.Consola.dll
 C:\proyecto\Veterinaria.App\veterinaria.App.Consola\obj\Debug\netcoreapp3.1\Veterinaria.App.Consola.pdb
 C:\proyecto\Veterinaria.App\veterinaria.App.Consola\obj\Debug\netcoreapp3.1\Veterinaria.App.Consola.genruntimeconfig.cache
+C:\proyecto\Veterinaria.App\veterinaria.App.Consola\bin\Debug\netcoreapp3.1\Veterinaria.App.Dominio.dll
+C:\proyecto\Veterinaria.App\veterinaria.App.Consola\bin\Debug\netcoreapp3.1\Veterinaria.App.Persistencia.dll
+C:\proyecto\Veterinaria.App\veterinaria.App.Consola\bin\Debug\netcoreapp3.1\Veterinaria.App.Dominio.pdb
+C:\proyecto\Veterinaria.App\veterinaria.App.Consola\bin\Debug\netcoreapp3.1\Veterinaria.App.Persistencia.pdb
