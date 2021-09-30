@@ -3,10 +3,22 @@ using System.Linq;
 using Veterinaria.App.Dominio;
 using Veterinaria.App.Persistencia;
 
-namespace Veterinaria.App.Persistencia
+namespace Veterinaria.App.Persistencia.AppRepositorios
 {
     public class RepositorioPropietario : IRepositorioPropietario
     {
+         List<Propietario> propietario;
+
+        public RepositorioPropietario()
+        {
+            propietario= new List<Propietario>()
+            {
+                new Propietario{Id=1,Nombre="Mateo",Apellidos="Salazar Ortiz",Telefono="3182909852",Cedula="1005450340",Direccion="calle 32e",Correo="mateo@gmail.com"},
+                new Propietario{Id=2,Nombre="luis",Apellidos="benitez",Telefono="3152776846",Cedula="20229292",Direccion="calle 32e",Correo="luis@gmail.com"},
+                new Propietario{Id=3,Nombre="josue",Apellidos="garcia",Telefono="3182909852",Cedula="723783272",Direccion="calle 56e",Correo="josue@gmail.com"}
+
+            };
+        }
         public Propietario AddPropietario(Propietario propietario)
         {
             throw new System.NotImplementedException();
@@ -17,9 +29,9 @@ namespace Veterinaria.App.Persistencia
             throw new System.NotImplementedException();
         }
 
-        public IEnumerable<Propietario> GetAllPropietario()
+        public IEnumerable<Propietario> GetAll()
         {
-            throw new System.NotImplementedException();
+           return propietario;
         }
 
         public Propietario GetPropietario(int idPropietario)

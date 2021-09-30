@@ -1,0 +1,19 @@
+﻿@page
+@model Veterinaria.App.Presentacion.Pages.ListModel
+@{
+}
+<h1>Listado de propietarios de mascotas</h1>
+<table class="table">
+    @foreach (var Propietario in Model.Propietario)
+    {
+        <tr>
+            <td>@Propietario.Id</td>
+            <td>@Propietario.Nombre</td>
+            <td>@Propietario.Apellidos</td>
+            <td>@Propietario.Telefono</td>
+            <td>@Propietario.Cedula</td>
+            <td>@Propietario.Direccion</td>
+            <td>@Propietario.Correo</td>
+        </tr>
+    }
+</table>
