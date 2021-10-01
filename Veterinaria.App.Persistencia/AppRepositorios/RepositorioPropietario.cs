@@ -16,8 +16,8 @@ namespace Veterinaria.App.Persistencia.AppRepositorios
                 new Propietario{Id=1,Nombre="Mateo",Apellidos="Salazar Ortiz",Telefono="3182909852",Cedula="1005450340",Direccion="calle 32e",Correo="mateo@gmail.com"},
                 new Propietario{Id=2,Nombre="luis",Apellidos="benitez",Telefono="3152776846",Cedula="20229292",Direccion="calle 32e",Correo="luis@gmail.com"},
                 new Propietario{Id=3,Nombre="josue",Apellidos="garcia",Telefono="3182909852",Cedula="723783272",Direccion="calle 56e",Correo="josue@gmail.com"},
-                new Propietario{Id=4,Nombre="luis",Apellidos="benitez",Telefono="3152776846",Cedula="20229292",Direccion="calle 32e",Correo="luis@gmail.com"},
-                new Propietario{Id=5,Nombre="josue",Apellidos="garcia",Telefono="3182909852",Cedula="723783272",Direccion="calle 56e",Correo="josue@gmail.com"}
+                new Propietario{Id=4,Nombre="Julian",Apellidos="Avila",Telefono="3005970050",Cedula="1015409671",Direccion="calle 152",Correo="julavil127@gmail.com"},
+                new Propietario{Id=5,Nombre="luis",Apellidos="benitez",Telefono="3152776846",Cedula="20229292",Direccion="calle 32e",Correo="luis@gmail.com"}
 
             };
         }
