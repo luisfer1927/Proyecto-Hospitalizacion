@@ -11,15 +11,15 @@ namespace Veterinaria.App.Presentacion.Pages
 {
     public class ListModel : PageModel
     {
-        private readonly IRepositorioPropietario repositorioPropietario;
-        public IEnumerable<Propietario> Propietario{get;set;}
-        public ListModel(IRepositorioPropietario repositorioPropietario)
+        private readonly IRepositorioPropietario repositorioPropietarios;
+        public IEnumerable<Propietario> Propietarios{get;set;}
+        public ListModel(IRepositorioPropietario repositorioPropietarios)
         {
-            this.repositorioPropietario=repositorioPropietario;
+            this.repositorioPropietarios=repositorioPropietarios;
         } 
         public void OnGet()
         {
-            Propietario=repositorioPropietario.GetAll();
+            Propietarios=repositorioPropietarios.GetAll();
         }
     }
 }
