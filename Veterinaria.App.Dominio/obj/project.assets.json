@@ -7247,19 +7247,19 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\mateo\\.nuget\\packages\\": {}
+    "C:\\Users\\usuario\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\proyecto\\Veterinaria.App\\Veterinaria.App.Dominio\\Veterinaria.App.Dominio.csproj",
+      "projectUniqueName": "D:\\Mision TIC 2021\\Programacion\\Proyecto Mascota Feliz\\Proyecto-MASCOTAFELIZ-CYBERLOWE-2\\Veterinaria.App.Dominio\\Veterinaria.App.Dominio.csproj",
       "projectName": "Veterinaria.App.Dominio",
-      "projectPath": "C:\\proyecto\\Veterinaria.App\\Veterinaria.App.Dominio\\Veterinaria.App.Dominio.csproj",
-      "packagesPath": "C:\\Users\\mateo\\.nuget\\packages\\",
-      "outputPath": "C:\\proyecto\\Veterinaria.App\\Veterinaria.App.Dominio\\obj\\",
+      "projectPath": "D:\\Mision TIC 2021\\Programacion\\Proyecto Mascota Feliz\\Proyecto-MASCOTAFELIZ-CYBERLOWE-2\\Veterinaria.App.Dominio\\Veterinaria.App.Dominio.csproj",
+      "packagesPath": "C:\\Users\\usuario\\.nuget\\packages\\",
+      "outputPath": "D:\\Mision TIC 2021\\Programacion\\Proyecto Mascota Feliz\\Proyecto-MASCOTAFELIZ-CYBERLOWE-2\\Veterinaria.App.Dominio\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\mateo\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        "C:\\Users\\usuario\\AppData\\Roaming\\NuGet\\NuGet.Config"
       ],
       "originalTargetFrameworks": [
         "netstandard2.1"

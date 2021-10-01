@@ -17,3 +17,12 @@ C:\MascotaFeliz\Proyecto-MASCOTAFELIZ-CYBERLOWE-1\Veterinaria.App.Dominio\obj\De
 C:\MascotaFeliz\Proyecto-MASCOTAFELIZ-CYBERLOWE-1\Veterinaria.App.Dominio\obj\Debug\netstandard2.1\Veterinaria.App.Dominio.csproj.CoreCompileInputs.cache
 C:\MascotaFeliz\Proyecto-MASCOTAFELIZ-CYBERLOWE-1\Veterinaria.App.Dominio\obj\Debug\netstandard2.1\Veterinaria.App.Dominio.dll
 C:\MascotaFeliz\Proyecto-MASCOTAFELIZ-CYBERLOWE-1\Veterinaria.App.Dominio\obj\Debug\netstandard2.1\Veterinaria.App.Dominio.pdb
+D:\Mision TIC 2021\Programacion\Proyecto Mascota Feliz\Proyecto-MASCOTAFELIZ-CYBERLOWE-2\Veterinaria.App.Dominio\bin\Debug\netstandard2.1\Veterinaria.App.Dominio.deps.json
+D:\Mision TIC 2021\Programacion\Proyecto Mascota Feliz\Proyecto-MASCOTAFELIZ-CYBERLOWE-2\Veterinaria.App.Dominio\bin\Debug\netstandard2.1\Veterinaria.App.Dominio.dll
+D:\Mision TIC 2021\Programacion\Proyecto Mascota Feliz\Proyecto-MASCOTAFELIZ-CYBERLOWE-2\Veterinaria.App.Dominio\bin\Debug\netstandard2.1\Veterinaria.App.Dominio.pdb
+D:\Mision TIC 2021\Programacion\Proyecto Mascota Feliz\Proyecto-MASCOTAFELIZ-CYBERLOWE-2\Veterinaria.App.Dominio\obj\Debug\netstandard2.1\Veterinaria.App.Dominio.csprojAssemblyReference.cache
+D:\Mision TIC 2021\Programacion\Proyecto Mascota Feliz\Proyecto-MASCOTAFELIZ-CYBERLOWE-2\Veterinaria.App.Dominio\obj\Debug\netstandard2.1\Veterinaria.App.Dominio.AssemblyInfoInputs.cache
+D:\Mision TIC 2021\Programacion\Proyecto Mascota Feliz\Proyecto-MASCOTAFELIZ-CYBERLOWE-2\Veterinaria.App.Dominio\obj\Debug\netstandard2.1\Veterinaria.App.Dominio.AssemblyInfo.cs
+D:\Mision TIC 2021\Programacion\Proyecto Mascota Feliz\Proyecto-MASCOTAFELIZ-CYBERLOWE-2\Veterinaria.App.Dominio\obj\Debug\netstandard2.1\Veterinaria.App.Dominio.csproj.CoreCompileInputs.cache
+D:\Mision TIC 2021\Programacion\Proyecto Mascota Feliz\Proyecto-MASCOTAFELIZ-CYBERLOWE-2\Veterinaria.App.Dominio\obj\Debug\netstandard2.1\Veterinaria.App.Dominio.dll
+D:\Mision TIC 2021\Programacion\Proyecto Mascota Feliz\Proyecto-MASCOTAFELIZ-CYBERLOWE-2\Veterinaria.App.Dominio\obj\Debug\netstandard2.1\Veterinaria.App.Dominio.pdb

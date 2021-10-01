@@ -4,8 +4,18 @@
 }
 <h1>Listado de propietarios de mascotas</h1>
 <table class="table">
+    <tr>
+            <td class="titulos">ID</td>
+            <td class="titulos">Nombre</td>
+            <td class="titulos">Apellidos</td>
+            <td class="titulos">Teléfono</td>
+            <td class="titulos">Cédula</td>
+            <td class="titulos">Dirección</td>
+            <td class="titulos">Email</td>
+        </tr>
     @foreach (var Propietario in Model.Propietarios)
     {
+        
         <tr>
             <td>@Propietario.Id</td>
             <td>@Propietario.Nombre</td>
