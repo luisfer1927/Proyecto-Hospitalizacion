@@ -7,7 +7,13 @@ a.navbar-brand {
   word-break: break-all;
   color: #fff!important;
   font-weight: 900;
+  background-color: rgb(0, 18, 119);
+  padding-left: 10px;
+  padding-right: 10px;
+  border-radius: 20px;
 }
+
+
 .bg-white{
   background-color: #0006ff!important;
 }
@@ -33,6 +39,21 @@ a {
   border-color: #1861ac;
 }
 
+#main {
+  float: left;
+  width: 50%;
+  margin-bottom: 20px;
+}
+
+.div-table {
+  border: 3px groove rgb(33, 176, 243);
+  padding: 20px;
+  background-color: rgb(119, 212, 255);
+  border-radius: 10px;
+}
+
+
+
 /* Sticky footer styles
 -------------------------------------------------- */
 html {
@@ -46,6 +67,8 @@ html {
 
 #titulos{
   font-weight: 700;
+  font-size: 20px;
+
 }
 
 .border-top {
@@ -86,10 +109,13 @@ body {
   color: black;
 }
 .footer {
+  padding: 20px;
+  text-align: center;
+  color: #fff!important;
   position: absolute;
   bottom: 0;
   width: 100%;
   white-space: nowrap;
-  line-height: 60px; /* Vertically center the text there */
+  line-height: 10px; /* Vertically center the text there */
   background-color: rgb(17, 24, 63);
 }
