@@ -2,16 +2,18 @@
 @model Veterinaria.App.Presentacion.Pages.ListModel
 @{
 }
+<br>
 <h1>Listado de propietarios de mascotas</h1>
+<br>
 <table class="table">
     <tr>
-            <td class="titulos">ID</td>
-            <td class="titulos">Nombre</td>
-            <td class="titulos">Apellidos</td>
-            <td class="titulos">Teléfono</td>
-            <td class="titulos">Cédula</td>
-            <td class="titulos">Dirección</td>
-            <td class="titulos">Email</td>
+            <td id="titulos">ID</td>
+            <td id="titulos">Nombre</td>
+            <td id="titulos">Apellidos</td>
+            <td id="titulos">Teléfono</td>
+            <td id="titulos">Cédula</td>
+            <td id="titulos">Dirección</td>
+            <td id="titulos">Email</td>
         </tr>
     @foreach (var Propietario in Model.Propietarios)
     {
