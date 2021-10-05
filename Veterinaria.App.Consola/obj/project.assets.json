@@ -5840,19 +5840,19 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\usuario\\.nuget\\packages\\": {}
+    "C:\\Users\\mateo\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\Mision TIC 2021\\Programacion\\Proyecto Mascota Feliz\\Proyecto-MASCOTAFELIZ-CYBERLOWE-2\\Veterinaria.App.Consola\\Veterinaria.App.Consola.csproj",
+      "projectUniqueName": "C:\\proyecto\\Proyecto-MASCOTAFELIZ-CYBERLOWE\\Veterinaria.App.Consola\\Veterinaria.App.Consola.csproj",
       "projectName": "Veterinaria.App.Consola",
-      "projectPath": "D:\\Mision TIC 2021\\Programacion\\Proyecto Mascota Feliz\\Proyecto-MASCOTAFELIZ-CYBERLOWE-2\\Veterinaria.App.Consola\\Veterinaria.App.Consola.csproj",
-      "packagesPath": "C:\\Users\\usuario\\.nuget\\packages\\",
-      "outputPath": "D:\\Mision TIC 2021\\Programacion\\Proyecto Mascota Feliz\\Proyecto-MASCOTAFELIZ-CYBERLOWE-2\\Veterinaria.App.Consola\\obj\\",
+      "projectPath": "C:\\proyecto\\Proyecto-MASCOTAFELIZ-CYBERLOWE\\Veterinaria.App.Consola\\Veterinaria.App.Consola.csproj",
+      "packagesPath": "C:\\Users\\mateo\\.nuget\\packages\\",
+      "outputPath": "C:\\proyecto\\Proyecto-MASCOTAFELIZ-CYBERLOWE\\Veterinaria.App.Consola\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\usuario\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        "C:\\Users\\mateo\\AppData\\Roaming\\NuGet\\NuGet.Config"
       ],
       "originalTargetFrameworks": [
         "netcoreapp3.1"
@@ -5863,11 +5863,11 @@
       "frameworks": {
         "netcoreapp3.1": {
           "projectReferences": {
-            "D:\\Mision TIC 2021\\Programacion\\Proyecto Mascota Feliz\\Proyecto-MASCOTAFELIZ-CYBERLOWE-2\\Veterinaria.App.Dominio\\Veterinaria.App.Dominio.csproj": {
-              "projectPath": "D:\\Mision TIC 2021\\Programacion\\Proyecto Mascota Feliz\\Proyecto-MASCOTAFELIZ-CYBERLOWE-2\\Veterinaria.App.Dominio\\Veterinaria.App.Dominio.csproj"
+            "C:\\proyecto\\Proyecto-MASCOTAFELIZ-CYBERLOWE\\Veterinaria.App.Dominio\\Veterinaria.App.Dominio.csproj": {
+              "projectPath": "C:\\proyecto\\Proyecto-MASCOTAFELIZ-CYBERLOWE\\Veterinaria.App.Dominio\\Veterinaria.App.Dominio.csproj"
             },
-            "D:\\Mision TIC 2021\\Programacion\\Proyecto Mascota Feliz\\Proyecto-MASCOTAFELIZ-CYBERLOWE-2\\Veterinaria.App.Persistencia\\Veterinaria.App.Persistencia.csproj": {
-              "projectPath": "D:\\Mision TIC 2021\\Programacion\\Proyecto Mascota Feliz\\Proyecto-MASCOTAFELIZ-CYBERLOWE-2\\Veterinaria.App.Persistencia\\Veterinaria.App.Persistencia.csproj"
+            "C:\\proyecto\\Proyecto-MASCOTAFELIZ-CYBERLOWE\\Veterinaria.App.Persistencia\\Veterinaria.App.Persistencia.csproj": {
+              "projectPath": "C:\\proyecto\\Proyecto-MASCOTAFELIZ-CYBERLOWE\\Veterinaria.App.Persistencia\\Veterinaria.App.Persistencia.csproj"
             }
           }
         }
