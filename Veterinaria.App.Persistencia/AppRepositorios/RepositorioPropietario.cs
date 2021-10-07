@@ -7,11 +7,11 @@ namespace Veterinaria.App.Persistencia.AppRepositorios
 {
     public class RepositorioPropietario : IRepositorioPropietario
     {
-         List<Propietario> propietario;
+        List<Propietario> propietario;
 
         public RepositorioPropietario()
         {
-            propietario= new List<Propietario>()
+            propietario = new List<Propietario>()
             {
                 new Propietario{Id=1,Nombre="Mateo",Apellidos="Salazar Ortiz",Telefono="3182909852",Cedula="1005450340",Direccion="calle 32e",Correo="mateo@gmail.com"},
                 new Propietario{Id=2,Nombre="luis",Apellidos="benitez",Telefono="3152776846",Cedula="20229292",Direccion="calle 32e",Correo="luis@gmail.com"},
@@ -33,7 +33,7 @@ namespace Veterinaria.App.Persistencia.AppRepositorios
 
         public IEnumerable<Propietario> GetAll()
         {
-           return propietario;
+            return propietario;
         }
 
         public Propietario GetPropietario(int idPropietario)
