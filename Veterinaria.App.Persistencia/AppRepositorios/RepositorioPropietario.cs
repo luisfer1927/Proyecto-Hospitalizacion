@@ -36,9 +36,9 @@ namespace Veterinaria.App.Persistencia.AppRepositorios
             return propietario;
         }
 
-        public Propietario GetPropietario(int idPropietario)
+        public Propietario GetPropietario(int IdPropietario)
         {
-            throw new System.NotImplementedException();
+            return propietario.SingleOrDefault(s => s.Id==IdPropietario);
         }
 
         public Propietario UpdatePropietario(Propietario propietario)

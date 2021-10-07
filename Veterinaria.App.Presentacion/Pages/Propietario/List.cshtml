@@ -13,7 +13,7 @@
         <td id="titulos">Teléfono</td>
         <td id="titulos">Cédula</td>
         <td id="titulos">Dirección</td>
-        <td id="titulos">Email</td>
+        <td id="titulos">Correo</td>
     </tr>
     <br>
     @foreach (var Propietario in Model.Propietarios)
@@ -27,8 +27,11 @@
             <td>@Propietario.Cedula</td>
             <td>@Propietario.Direccion</td>
             <td>@Propietario.Correo</td>
-            <td><a class="btn btn-primary table-btn" asp-page="./Edit" asp-route-propietarioId="@Propietario.Id">
-            <i class="fas fa-info-circle fa-lg"></i></a>
+            <td>
+                <a class="btn btn-primary table-btn" asp-page="./Details" asp-route-propietarioId="@Propietario.Id">
+            <i class="fas fa-info-circle fa-lg"></i>
+            Detalle Propietario
+            </a>
             
             </td>
         </tr>

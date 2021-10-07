@@ -1,0 +1,24 @@
+﻿@page
+@model Veterinaria.App.Presentacion.Pages.DetailsModel
+@{
+}
+<h2>@Model.Propietario.Nombre</h2>
+<div>
+    Id: @Model.Propietario.Id
+</div>
+<div>
+    Apellidos: @Model.Propietario.Apellidos
+</div>
+<div>
+    Telefono: @Model.Propietario.Telefono
+</div>
+<div>
+    Cedula: @Model.Propietario.Cedula
+</div>
+<div>
+    Direccion: @Model.Propietario.Direccion
+</div>
+<div>
+    Correo: @Model.Propietario.Correo
+</div>
+<a asp-page="./List" class="btn-default">Lista de Propietarios</a>
