@@ -530,3 +530,4 @@ C:\proyecto\Proyecto-MASCOTAFELIZ-CYBERLOWE-1\Veterinaria.App.Presentacion\obj\D
 C:\proyecto\Proyecto-MASCOTAFELIZ-CYBERLOWE-1\Veterinaria.App.Presentacion\obj\Debug\netcoreapp3.1\Veterinaria.App.Presentacion.dll
 C:\proyecto\Proyecto-MASCOTAFELIZ-CYBERLOWE-1\Veterinaria.App.Presentacion\obj\Debug\netcoreapp3.1\Veterinaria.App.Presentacion.pdb
 C:\proyecto\Proyecto-MASCOTAFELIZ-CYBERLOWE-1\Veterinaria.App.Presentacion\obj\Debug\netcoreapp3.1\Veterinaria.App.Presentacion.genruntimeconfig.cache
+C:\proyecto\Proyecto-MASCOTAFELIZ-CYBERLOWE-1\Veterinaria.App.Presentacion\obj\Debug\netcoreapp3.1\Razor\Pages\Propietario\Edit.cshtml.g.cs

@@ -14442,6 +14442,11 @@
       "FileKind": "mvc"
     },
     {
+      "FilePath": "c:\\proyecto\\Proyecto-MASCOTAFELIZ-CYBERLOWE-1\\Veterinaria.App.Presentacion\\Pages\\Propietario\\Edit.cshtml",
+      "TargetPath": "Pages\\Propietario\\Edit.cshtml",
+      "FileKind": "mvc"
+    },
+    {
       "FilePath": "c:\\proyecto\\Proyecto-MASCOTAFELIZ-CYBERLOWE-1\\Veterinaria.App.Presentacion\\Pages\\_ViewStart.cshtml",
       "TargetPath": "Pages\\_ViewStart.cshtml",
       "FileKind": "mvc"

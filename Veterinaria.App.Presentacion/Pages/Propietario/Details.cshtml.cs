@@ -4,8 +4,8 @@ using System.Linq;
 using System.Threading.Tasks;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.RazorPages;
-using Veterinaria.App.Dominio;
 using Veterinaria.App.Persistencia.AppRepositorios;
+using Veterinaria.App.Dominio;
 
 namespace Veterinaria.App.Presentacion.Pages
 {

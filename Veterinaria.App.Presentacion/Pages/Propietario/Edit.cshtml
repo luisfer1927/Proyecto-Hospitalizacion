@@ -1,0 +1,41 @@
+﻿@page
+@model Veterinaria.App.Presentacion.Pages.EditModel
+@{
+}
+<h2>Editando el propietario:@Model.Propietario.Nombre</h2>
+<form method="post">
+    <input type="hidden" asp-for="Propietario.Id"/>
+    
+    <div>
+        <label asp-for="Propietario.Nombre"></label>
+        <input asp-for="Propietario.Nombre" class="form-control"/>
+        <span class="textdanger" asp-validation-for="Propietario.Nombre"></span>
+    </div>
+    <div>
+        <label asp-for="Propietario.Apellidos"></label>
+        <input asp-for="Propietario.Apellidos" class="form-control"/>
+        <span class="textdanger" asp-validation-for="Propietario.Apellidos"></span>
+    </div>
+    <div>
+        <label asp-for="Propietario.Telefono"></label>
+        <input asp-for="Propietario.Telefono" class="form-control"/>
+        <span class="textdanger" asp-validation-for="Propietario.Telefono"></span>
+    </div>
+    <div>
+        <label asp-for="Propietario.Cedula"></label>
+        <input asp-for="Propietario.Cedula" class="form-control"/>
+        <span class="textdanger" asp-validation-for="Propietario.Cedula"></span>
+    </div>
+    <div>
+        <label asp-for="Propietario.Direccion"></label>
+        <input asp-for="Propietario.Direccion" class="form-control"/>
+        <span class="textdanger" asp-validation-for="Propietario.Direccion"></span>
+    </div>
+    <div>
+        <label asp-for="Propietario.Correo"></label>
+        <input asp-for="Propietario.Correo" class="form-control"/>
+        <span class="textdanger" asp-validation-for="Propietario.Correo"></span>
+    </div>
+    <button type="submit" class="btn btn-primary">Guardar</button>
+</form>
+<a asp-page="./List" class="btn-default">lista de saludos</a>
