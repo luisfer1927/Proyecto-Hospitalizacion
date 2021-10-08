@@ -19,24 +19,12 @@ namespace Veterinaria.App.Presentacion.Pages
         {
             this.RepositorioPropietario = RepositorioPropietario;
 
-        }
-
-        public IActionResult OnGet(int PropietarioId)
-        {
-            Propietario = RepositorioPropietario.GetPropietario(PropietarioId);
-            if (Propietario==null)
-            {
-                return RedirectToPage("./NotFound");
-            }
-            else
-            return Page();
-        }
-        /*
+        }  
         public IActionResult OnGet(int? PropietarioId)
         {
             if (PropietarioId.HasValue)
             {
-                Propietario = repositorioPropietario.GetSaludoPorId(PropietarioId.Value);
+                Propietario = RepositorioPropietario.GetPropietario(PropietarioId.Value);
             }
             else
             {
@@ -50,13 +38,22 @@ namespace Veterinaria.App.Presentacion.Pages
                 return Page();
 
         }
-*/
         public IActionResult OnPost()
         {
-           
+            if(!ModelState.IsValid)
+            {
+                return Page();
+            }
+            if(Propietario.Id>0)
+            {
             Propietario = RepositorioPropietario.UpdatePropietario(Propietario);
+            }
+            else
+            {
+             RepositorioPropietario.AddPropietario(Propietario);
+            }
             return Page();
         }
-        
+
     }
 }

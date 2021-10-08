@@ -21,9 +21,11 @@ namespace Veterinaria.App.Persistencia.AppRepositorios
 
             };
         }
-        public Propietario AddPropietario(Propietario propietario)
+        public Propietario AddPropietario(Propietario propietarios)
         {
-            throw new System.NotImplementedException();
+           propietarios.Id=propietario.Max(r => r.Id)+1;
+           propietario.Add(propietarios);
+           return propietarios;
         }
 
         public void DeletePropietario(int idPropietario)
