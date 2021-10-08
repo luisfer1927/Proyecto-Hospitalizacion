@@ -41,9 +41,20 @@ namespace Veterinaria.App.Persistencia.AppRepositorios
             return propietario.SingleOrDefault(s => s.Id==IdPropietario);
         }
 
-        public Propietario UpdatePropietario(Propietario propietario)
+        public Propietario UpdatePropietario(Propietario propietarioactualizado)
         {
-            throw new System.NotImplementedException();
+            var Propietarios= propietario.SingleOrDefault(r => r.Id==propietarioactualizado.Id);
+            if(Propietarios!=null)
+            {
+                Propietarios.Id=propietarioactualizado.Id;
+                Propietarios.Nombre=propietarioactualizado.Nombre;
+                Propietarios.Apellidos=propietarioactualizado.Apellidos;
+                Propietarios.Cedula=propietarioactualizado.Cedula;
+                Propietarios.Correo=propietarioactualizado.Correo;
+                Propietarios.Direccion=propietarioactualizado.Direccion;
+                Propietarios.Telefono=propietarioactualizado.Telefono;
+            }
+            return Propietarios;
         }
 
         public Propietario UpdatePropietario(Propietario propietario, int idPropietario)

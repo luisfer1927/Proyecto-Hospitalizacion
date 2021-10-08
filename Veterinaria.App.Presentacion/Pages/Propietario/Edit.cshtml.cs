@@ -12,12 +12,12 @@ namespace Veterinaria.App.Presentacion.Pages
     public class EditModel : PageModel
     {
        private readonly IRepositorioPropietario RepositorioPropietario;
-
+        [BindProperty]
         public Propietario Propietario {get;set;}
 
-        public EditModel(IRepositorioPropietario repositorioPropietario)
+        public EditModel(IRepositorioPropietario RepositorioPropietario)
         {
-            this.RepositorioPropietario = repositorioPropietario;
+            this.RepositorioPropietario = RepositorioPropietario;
 
         }
 
@@ -50,23 +50,13 @@ namespace Veterinaria.App.Presentacion.Pages
                 return Page();
 
         }
-
+*/
         public IActionResult OnPost()
         {
-            if(!ModelState.IsValid)
-            {
-                return Page();
-            }
-            if(Propietario.Id>0)
-            {
-            Propietario = repositorioPropietario.Update(Propietario);
-            }
-            else
-            {
-             repositorioPropietario.Add(Propietario);
-            }
+           
+            Propietario = RepositorioPropietario.UpdatePropietario(Propietario);
             return Page();
         }
-        */
+        
     }
 }
