@@ -5866,11 +5866,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\MascotaFeliz\\Proyecto-MASCOTAFELIZ-CYBERLOWE-4\\Veterinaria.App.Presentacion\\Veterinaria.App.Presentacion.csproj",
+      "projectUniqueName": "C:\\MascotaFeliz\\Proyecto-MASCOTAFELIZ-CYBERLOWE-6\\Veterinaria.App.Presentacion\\Veterinaria.App.Presentacion.csproj",
       "projectName": "Veterinaria.App.Presentacion",
-      "projectPath": "C:\\MascotaFeliz\\Proyecto-MASCOTAFELIZ-CYBERLOWE-4\\Veterinaria.App.Presentacion\\Veterinaria.App.Presentacion.csproj",
+      "projectPath": "C:\\MascotaFeliz\\Proyecto-MASCOTAFELIZ-CYBERLOWE-6\\Veterinaria.App.Presentacion\\Veterinaria.App.Presentacion.csproj",
       "packagesPath": "C:\\Users\\user\\.nuget\\packages\\",
-      "outputPath": "C:\\MascotaFeliz\\Proyecto-MASCOTAFELIZ-CYBERLOWE-4\\Veterinaria.App.Presentacion\\obj\\",
+      "outputPath": "C:\\MascotaFeliz\\Proyecto-MASCOTAFELIZ-CYBERLOWE-6\\Veterinaria.App.Presentacion\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\user\\AppData\\Roaming\\NuGet\\NuGet.Config"
@@ -5885,14 +5885,14 @@
         "netcoreapp3.1": {
           "targetAlias": "netcoreapp3.1",
           "projectReferences": {
-            "C:\\MascotaFeliz\\Proyecto-MASCOTAFELIZ-CYBERLOWE-4\\Veterinaria.App.Consola\\Veterinaria.App.Consola.csproj": {
-              "projectPath": "C:\\MascotaFeliz\\Proyecto-MASCOTAFELIZ-CYBERLOWE-4\\Veterinaria.App.Consola\\Veterinaria.App.Consola.csproj"
+            "C:\\MascotaFeliz\\Proyecto-MASCOTAFELIZ-CYBERLOWE-6\\Veterinaria.App.Consola\\Veterinaria.App.Consola.csproj": {
+              "projectPath": "C:\\MascotaFeliz\\Proyecto-MASCOTAFELIZ-CYBERLOWE-6\\Veterinaria.App.Consola\\Veterinaria.App.Consola.csproj"
             },
-            "C:\\MascotaFeliz\\Proyecto-MASCOTAFELIZ-CYBERLOWE-4\\Veterinaria.App.Dominio\\Veterinaria.App.Dominio.csproj": {
-              "projectPath": "C:\\MascotaFeliz\\Proyecto-MASCOTAFELIZ-CYBERLOWE-4\\Veterinaria.App.Dominio\\Veterinaria.App.Dominio.csproj"
+            "C:\\MascotaFeliz\\Proyecto-MASCOTAFELIZ-CYBERLOWE-6\\Veterinaria.App.Dominio\\Veterinaria.App.Dominio.csproj": {
+              "projectPath": "C:\\MascotaFeliz\\Proyecto-MASCOTAFELIZ-CYBERLOWE-6\\Veterinaria.App.Dominio\\Veterinaria.App.Dominio.csproj"
             },
-            "C:\\MascotaFeliz\\Proyecto-MASCOTAFELIZ-CYBERLOWE-4\\Veterinaria.App.Persistencia\\Veterinaria.App.Persistencia.csproj": {
-              "projectPath": "C:\\MascotaFeliz\\Proyecto-MASCOTAFELIZ-CYBERLOWE-4\\Veterinaria.App.Persistencia\\Veterinaria.App.Persistencia.csproj"
+            "C:\\MascotaFeliz\\Proyecto-MASCOTAFELIZ-CYBERLOWE-6\\Veterinaria.App.Persistencia\\Veterinaria.App.Persistencia.csproj": {
+              "projectPath": "C:\\MascotaFeliz\\Proyecto-MASCOTAFELIZ-CYBERLOWE-6\\Veterinaria.App.Persistencia\\Veterinaria.App.Persistencia.csproj"
             }
           }
         }

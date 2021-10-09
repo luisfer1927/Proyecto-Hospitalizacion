@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\MascotaFeliz\\Proyecto-MASCOTAFELIZ-CYBERLOWE-4\\Veterinaria.App.Dominio\\Veterinaria.App.Dominio.csproj": {}
+    "C:\\MascotaFeliz\\Proyecto-MASCOTAFELIZ-CYBERLOWE-6\\Veterinaria.App.Dominio\\Veterinaria.App.Dominio.csproj": {}
   },
   "projects": {
-    "C:\\MascotaFeliz\\Proyecto-MASCOTAFELIZ-CYBERLOWE-4\\Veterinaria.App.Dominio\\Veterinaria.App.Dominio.csproj": {
+    "C:\\MascotaFeliz\\Proyecto-MASCOTAFELIZ-CYBERLOWE-6\\Veterinaria.App.Dominio\\Veterinaria.App.Dominio.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\MascotaFeliz\\Proyecto-MASCOTAFELIZ-CYBERLOWE-4\\Veterinaria.App.Dominio\\Veterinaria.App.Dominio.csproj",
+        "projectUniqueName": "C:\\MascotaFeliz\\Proyecto-MASCOTAFELIZ-CYBERLOWE-6\\Veterinaria.App.Dominio\\Veterinaria.App.Dominio.csproj",
         "projectName": "Veterinaria.App.Dominio",
-        "projectPath": "C:\\MascotaFeliz\\Proyecto-MASCOTAFELIZ-CYBERLOWE-4\\Veterinaria.App.Dominio\\Veterinaria.App.Dominio.csproj",
+        "projectPath": "C:\\MascotaFeliz\\Proyecto-MASCOTAFELIZ-CYBERLOWE-6\\Veterinaria.App.Dominio\\Veterinaria.App.Dominio.csproj",
         "packagesPath": "C:\\Users\\user\\.nuget\\packages\\",
-        "outputPath": "C:\\MascotaFeliz\\Proyecto-MASCOTAFELIZ-CYBERLOWE-4\\Veterinaria.App.Dominio\\obj\\",
+        "outputPath": "C:\\MascotaFeliz\\Proyecto-MASCOTAFELIZ-CYBERLOWE-6\\Veterinaria.App.Dominio\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\user\\AppData\\Roaming\\NuGet\\NuGet.Config"

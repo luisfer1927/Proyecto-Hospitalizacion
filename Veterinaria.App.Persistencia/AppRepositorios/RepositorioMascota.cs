@@ -22,9 +22,11 @@ namespace Veterinaria.App.Persistencia.AppRepositorios
             };
         }
         
-        public Mascota AddMascota(Mascota mascota)
+        public Mascota AddMascota(Mascota mascotas)
         {
-            throw new System.NotImplementedException();
+            mascotas.id=mascota.Max(r => r.id)+1;
+           mascota.Add(mascotas);
+           return mascotas;
         }
         public void DeleteMascota(int idMascota)
         {
@@ -38,9 +40,20 @@ namespace Veterinaria.App.Persistencia.AppRepositorios
         {
             return mascota.SingleOrDefault(s => s.id==idMascota);
         }
-        public Mascota UpdateMascota(Mascota mascota)
+        public Mascota UpdateMascota(Mascota mascotaactualizado)
         {
-            throw new System.NotImplementedException();
+             var Mascotas= mascota.SingleOrDefault(r => r.id==mascotaactualizado.id);
+            if(Mascotas!=null)
+            {
+                Mascotas.id=mascotaactualizado.id;
+                Mascotas.Nombre=mascotaactualizado.Nombre;
+                Mascotas.Edad=mascotaactualizado.Edad;
+                Mascotas.Tipo_Mascota=mascotaactualizado.Tipo_Mascota;
+                Mascotas.Estado_Salud=mascotaactualizado.Estado_Salud;
+                Mascotas.dueño=mascotaactualizado.dueño;
+                
+            }
+            return Mascotas;
         }
         public Mascota UpdateMascota(Mascota mascota, int idMascota)
         {
