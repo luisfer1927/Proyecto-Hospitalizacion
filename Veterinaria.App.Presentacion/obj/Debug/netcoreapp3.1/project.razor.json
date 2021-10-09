@@ -1,5 +1,5 @@
 {
-  "FilePath": "c:\\MascotaFeliz\\Proyecto-MASCOTAFELIZ-CYBERLOWE-4\\Veterinaria.App.Presentacion\\Veterinaria.App.Presentacion.csproj",
+  "FilePath": "c:\\proyecto\\Proyecto-MASCOTAFELIZ-CYBERLOWE\\Veterinaria.App.Presentacion\\Veterinaria.App.Presentacion.csproj",
   "Configuration": {
     "ConfigurationName": "MVC-3.0",
     "LanguageVersion": "3.0",
@@ -14402,63 +14402,68 @@
   "RootNamespace": "Veterinaria.App.Presentacion",
   "Documents": [
     {
-      "FilePath": "c:\\MascotaFeliz\\Proyecto-MASCOTAFELIZ-CYBERLOWE-4\\Veterinaria.App.Presentacion\\Pages\\_ViewStart.cshtml",
-      "TargetPath": "Pages\\_ViewStart.cshtml",
-      "FileKind": "mvc"
-    },
-    {
-      "FilePath": "c:\\MascotaFeliz\\Proyecto-MASCOTAFELIZ-CYBERLOWE-4\\Veterinaria.App.Presentacion\\Pages\\_ViewImports.cshtml",
-      "TargetPath": "Pages\\_ViewImports.cshtml",
-      "FileKind": "mvc"
-    },
-    {
-      "FilePath": "c:\\MascotaFeliz\\Proyecto-MASCOTAFELIZ-CYBERLOWE-4\\Veterinaria.App.Presentacion\\Pages\\Error.cshtml",
-      "TargetPath": "Pages\\Error.cshtml",
-      "FileKind": "mvc"
-    },
-    {
-      "FilePath": "c:\\MascotaFeliz\\Proyecto-MASCOTAFELIZ-CYBERLOWE-4\\Veterinaria.App.Presentacion\\Pages\\Shared\\_ValidationScriptsPartial.cshtml",
-      "TargetPath": "Pages\\Shared\\_ValidationScriptsPartial.cshtml",
-      "FileKind": "mvc"
-    },
-    {
-      "FilePath": "c:\\MascotaFeliz\\Proyecto-MASCOTAFELIZ-CYBERLOWE-4\\Veterinaria.App.Presentacion\\Pages\\Vet_Propietario\\List.cshtml",
-      "TargetPath": "Pages\\Vet_Propietario\\List.cshtml",
-      "FileKind": "mvc"
-    },
-    {
-      "FilePath": "c:\\MascotaFeliz\\Proyecto-MASCOTAFELIZ-CYBERLOWE-4\\Veterinaria.App.Presentacion\\Pages\\Vet_Mascota\\Lista.cshtml",
-      "TargetPath": "Pages\\Vet_Mascota\\Lista.cshtml",
-      "FileKind": "mvc"
-    },
-    {
-      "FilePath": "c:\\MascotaFeliz\\Proyecto-MASCOTAFELIZ-CYBERLOWE-4\\Veterinaria.App.Presentacion\\Pages\\Vet_Propietario\\Edit.cshtml",
-      "TargetPath": "Pages\\Vet_Propietario\\Edit.cshtml",
-      "FileKind": "mvc"
-    },
-    {
-      "FilePath": "c:\\MascotaFeliz\\Proyecto-MASCOTAFELIZ-CYBERLOWE-4\\Veterinaria.App.Presentacion\\Pages\\Index.cshtml",
+      "FilePath": "c:\\proyecto\\Proyecto-MASCOTAFELIZ-CYBERLOWE\\Veterinaria.App.Presentacion\\Pages\\Index.cshtml",
       "TargetPath": "Pages\\Index.cshtml",
       "FileKind": "mvc"
     },
     {
-      "FilePath": "c:\\MascotaFeliz\\Proyecto-MASCOTAFELIZ-CYBERLOWE-4\\Veterinaria.App.Presentacion\\Pages\\Shared\\_Layout.cshtml",
+      "FilePath": "c:\\proyecto\\Proyecto-MASCOTAFELIZ-CYBERLOWE\\Veterinaria.App.Presentacion\\Pages\\Shared\\_ValidationScriptsPartial.cshtml",
+      "TargetPath": "Pages\\Shared\\_ValidationScriptsPartial.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\proyecto\\Proyecto-MASCOTAFELIZ-CYBERLOWE\\Veterinaria.App.Presentacion\\Pages\\salud\\Listasalud.cshtml",
+      "TargetPath": "Pages\\salud\\Listasalud.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\proyecto\\Proyecto-MASCOTAFELIZ-CYBERLOWE\\Veterinaria.App.Presentacion\\Pages\\_ViewStart.cshtml",
+      "TargetPath": "Pages\\_ViewStart.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\proyecto\\Proyecto-MASCOTAFELIZ-CYBERLOWE\\Veterinaria.App.Presentacion\\Pages\\Shared\\_Layout.cshtml",
       "TargetPath": "Pages\\Shared\\_Layout.cshtml",
       "FileKind": "mvc"
     },
     {
-      "FilePath": "c:\\MascotaFeliz\\Proyecto-MASCOTAFELIZ-CYBERLOWE-4\\Veterinaria.App.Presentacion\\Pages\\Vet_Mascota\\Details_Mas.cshtml",
-      "TargetPath": "Pages\\Vet_Mascota\\Details_Mas.cshtml",
+      "FilePath": "c:\\proyecto\\Proyecto-MASCOTAFELIZ-CYBERLOWE\\Veterinaria.App.Presentacion\\Pages\\Error.cshtml",
+      "TargetPath": "Pages\\Error.cshtml",
       "FileKind": "mvc"
     },
     {
-      "FilePath": "c:\\MascotaFeliz\\Proyecto-MASCOTAFELIZ-CYBERLOWE-4\\Veterinaria.App.Presentacion\\Pages\\Vet_Propietario\\Details.cshtml",
+      "FilePath": "c:\\proyecto\\Proyecto-MASCOTAFELIZ-CYBERLOWE\\Veterinaria.App.Presentacion\\Pages\\_ViewImports.cshtml",
+      "TargetPath": "Pages\\_ViewImports.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\proyecto\\Proyecto-MASCOTAFELIZ-CYBERLOWE\\Veterinaria.App.Presentacion\\Pages\\Vet_Propietario\\Details.cshtml",
       "TargetPath": "Pages\\Vet_Propietario\\Details.cshtml",
       "FileKind": "mvc"
     },
     {
-      "FilePath": "c:\\MascotaFeliz\\Proyecto-MASCOTAFELIZ-CYBERLOWE-4\\Veterinaria.App.Presentacion\\Pages\\Privacy.cshtml",
+      "FilePath": "c:\\proyecto\\Proyecto-MASCOTAFELIZ-CYBERLOWE\\Veterinaria.App.Presentacion\\Pages\\Vet_Propietario\\Edit.cshtml",
+      "TargetPath": "Pages\\Vet_Propietario\\Edit.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\proyecto\\Proyecto-MASCOTAFELIZ-CYBERLOWE\\Veterinaria.App.Presentacion\\Pages\\Privacy.cshtml",
       "TargetPath": "Pages\\Privacy.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\proyecto\\Proyecto-MASCOTAFELIZ-CYBERLOWE\\Veterinaria.App.Presentacion\\Pages\\Vet_Mascota\\Lista.cshtml",
+      "TargetPath": "Pages\\Vet_Mascota\\Lista.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\proyecto\\Proyecto-MASCOTAFELIZ-CYBERLOWE\\Veterinaria.App.Presentacion\\Pages\\Vet_Propietario\\List.cshtml",
+      "TargetPath": "Pages\\Vet_Propietario\\List.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\proyecto\\Proyecto-MASCOTAFELIZ-CYBERLOWE\\Veterinaria.App.Presentacion\\Pages\\Vet_Mascota\\Details_Mas.cshtml",
+      "TargetPath": "Pages\\Vet_Mascota\\Details_Mas.cshtml",
       "FileKind": "mvc"
     }
   ],

@@ -1,0 +1,52 @@
+﻿@page
+@model Veterinaria.App.Presentacion.Pages.ListasaludModel
+@{
+}
+<br>
+<h1>Estados de Salud</h1>
+<br>
+<table class="table">
+    <tr>
+        <td id="titulos">ID</td>
+        <td id="titulos">Temperatura</td>
+        <td id="titulos">frecuencia respiratoria</td>
+        <td id="titulos">frecuencia cardiaca</td>
+        <td id="titulos">estado de animo</td>
+        <td id="titulos">recomendacion</td>
+        <td id="titulos">peso</td>
+        <td id="titulos">mascota</td>
+        <td id="titulos">visita</td>
+        <td id="titulos">Detalles</td>
+        <td id="titulos">Editar</td>
+        
+    </tr>
+    <br>
+    @foreach (var Mascota in Model.EstadodeSalud)
+    {
+
+        <tr>
+            <td>@Mascota.id</td>
+            <td>@Mascota.temperatura</td>
+            <td>@Mascota.Frecu_Respi</td>
+            <td>@Mascota.Frecu_Cardia</td>
+            <td>@Mascota.Estado_Animo</td>
+            <td>@Mascota.recomendacion</td>
+            <td>@Mascota.Peso</td>
+            <td>@Mascota.masco_estadosalud.Nombre</td>
+            <td>@Mascota.visit.id</td>
+            <br>
+            <td>
+            <a class="btn btn-primary table-btn" asp-page="./Details_Mas" asp-route-Mascotaid="@Mascota.id">
+            <i class="fas fa-info-circle fa-lg"></i>
+            </a>
+            </td>
+            <td>
+                <a class="btn btn-primary table-btn" asp-page="./Edit" asp-route-propietarioId="@Mascota.id">
+            <i class="fas fa-address-book fa-lg"></i>
+            </a>
+            
+            </td>
+            
+        </tr>
+    }
+</table>

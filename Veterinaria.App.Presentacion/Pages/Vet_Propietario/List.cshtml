@@ -14,6 +14,10 @@
         <td id="titulos">Cédula</td>
         <td id="titulos">Dirección</td>
         <td id="titulos">Correo</td>
+        <td id="titulos">Detalles</td>
+        <td id="titulos">Editar</td>
+
+        
     </tr>
     <br>
     @foreach (var Propietario in Model.Propietarios)
@@ -30,14 +34,12 @@
             <td>
                 <a class="btn btn-primary table-btn" asp-page="./Details" asp-route-propietarioId="@Propietario.Id">
             <i class="fas fa-info-circle fa-lg"></i>
-            Detalle Propietario
             </a>
             
             </td>
             <td>
                 <a class="btn btn-primary table-btn" asp-page="./Edit" asp-route-propietarioId="@Propietario.Id">
             <i class="fas fa-address-book fa-lg"></i>
-            Editar
             </a>
             
             </td>
