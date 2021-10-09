@@ -1,0 +1,39 @@
+﻿@page
+@model Veterinaria.App.Presentacion.Pages.ListaModel
+@{
+}
+<br>
+<h1>Listado de Mascotas</h1>
+<br>
+<table class="table">
+    <tr>
+        <td id="titulos">ID</td>
+        <td id="titulos">Nombre</td>
+        <td id="titulos">Edad</td>
+        <td id="titulos">Tipo_Mascota</td>
+        <td id="titulos">Estado_Salud</td>
+        <td id="titulos">dueño</td>
+    </tr>
+    <br>
+    @foreach (var Mascota in Model.Mascotas)
+    {
+
+        <tr>
+            <td>@Mascota.id</td>
+            <td>@Mascota.Nombre</td>
+            <td>@Mascota.Edad</td>
+            <td>@Mascota.Tipo_Mascota</td>
+            <td>@Mascota.Estado_Salud</td>
+            <td>@Mascota.dueño</td>
+            
+            <td>
+            <a class="btn btn-primary table-btn" asp-page="./Details_Mas" asp-route-Mascotaid="@Mascota.id">
+            <i class="fas fa-info-circle fa-lg"></i>
+            Detalle Mascota
+            </a>
+
+            </td>
+            
+        </tr>
+    }
+</table>

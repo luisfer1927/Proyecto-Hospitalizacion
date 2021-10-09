@@ -1,0 +1,22 @@
+﻿@page
+@model Veterinaria.App.Presentacion.Pages.Details_MasModel
+@{
+}
+<h2>@Model.Mascota.Nombre</h2>
+<div>
+    id: @Model.Mascota.id
+</div>
+<div>
+    Edad: @Model.Mascota.Edad
+</div>
+<div>
+    Tipo_Mascota: @Model.Mascota.Tipo_Mascota
+</div>
+<div>
+    Estado_Salud: @Model.Mascota.Estado_Salud
+</div>
+<div>
+    dueño: @Model.Mascota.dueño
+</div>
+
+<a asp-page="./Lista" class="btn-default">Lista de Mascota</a>
