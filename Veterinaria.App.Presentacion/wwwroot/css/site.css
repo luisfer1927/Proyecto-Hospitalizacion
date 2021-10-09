@@ -109,11 +109,10 @@ body {
   color: black;
 }
 .footer {
-  padding: 20px;
+  padding: 5px;
   text-align: center;
   color: #fff!important;
   position: absolute;
-  bottom: 0;
   width: 100%;
   white-space: nowrap;
   line-height: 10px; /* Vertically center the text there */
