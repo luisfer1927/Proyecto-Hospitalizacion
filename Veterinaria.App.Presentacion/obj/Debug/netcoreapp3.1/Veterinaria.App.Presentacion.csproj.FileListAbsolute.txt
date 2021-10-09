@@ -336,7 +336,6 @@ C:\proyecto\Proyecto-MASCOTAFELIZ-CYBERLOWE\Veterinaria.App.Presentacion\obj\Deb
 C:\proyecto\Proyecto-MASCOTAFELIZ-CYBERLOWE\Veterinaria.App.Presentacion\obj\Debug\netcoreapp3.1\Razor\Pages\Error.cshtml.g.cs
 C:\proyecto\Proyecto-MASCOTAFELIZ-CYBERLOWE\Veterinaria.App.Presentacion\obj\Debug\netcoreapp3.1\Razor\Pages\Index.cshtml.g.cs
 C:\proyecto\Proyecto-MASCOTAFELIZ-CYBERLOWE\Veterinaria.App.Presentacion\obj\Debug\netcoreapp3.1\Razor\Pages\Privacy.cshtml.g.cs
-C:\proyecto\Proyecto-MASCOTAFELIZ-CYBERLOWE\Veterinaria.App.Presentacion\obj\Debug\netcoreapp3.1\Razor\Pages\Propietario\List.cshtml.g.cs
 C:\proyecto\Proyecto-MASCOTAFELIZ-CYBERLOWE\Veterinaria.App.Presentacion\obj\Debug\netcoreapp3.1\Razor\Pages\Shared\_Layout.cshtml.g.cs
 C:\proyecto\Proyecto-MASCOTAFELIZ-CYBERLOWE\Veterinaria.App.Presentacion\obj\Debug\netcoreapp3.1\Razor\Pages\Shared\_ValidationScriptsPartial.cshtml.g.cs
 C:\proyecto\Proyecto-MASCOTAFELIZ-CYBERLOWE\Veterinaria.App.Presentacion\obj\Debug\netcoreapp3.1\Razor\Pages\_ViewImports.cshtml.g.cs
@@ -626,6 +625,7 @@ C:\MascotaFeliz\Proyecto-MASCOTAFELIZ-CYBERLOWE-4\veterinaria.app.presentacion\o
 C:\MascotaFeliz\Proyecto-MASCOTAFELIZ-CYBERLOWE-4\veterinaria.app.presentacion\obj\Debug\netcoreapp3.1\Razor\Pages\Vet_Propietario\Details.cshtml.g.cs
 C:\MascotaFeliz\Proyecto-MASCOTAFELIZ-CYBERLOWE-4\veterinaria.app.presentacion\obj\Debug\netcoreapp3.1\Razor\Pages\Vet_Propietario\Edit.cshtml.g.cs
 C:\MascotaFeliz\Proyecto-MASCOTAFELIZ-CYBERLOWE-4\veterinaria.app.presentacion\obj\Debug\netcoreapp3.1\Razor\Pages\Vet_Propietario\List.cshtml.g.cs
+<<<<<<< HEAD
 C:\MascotaFeliz\Proyecto-MASCOTAFELIZ-CYBERLOWE-6\Veterinaria.App.Presentacion\bin\Debug\netcoreapp3.1\appsettings.Development.json
 C:\MascotaFeliz\Proyecto-MASCOTAFELIZ-CYBERLOWE-6\Veterinaria.App.Presentacion\bin\Debug\netcoreapp3.1\appsettings.json
 C:\MascotaFeliz\Proyecto-MASCOTAFELIZ-CYBERLOWE-6\Veterinaria.App.Presentacion\bin\Debug\netcoreapp3.1\Veterinaria.App.Consola.deps.json
@@ -722,3 +722,11 @@ C:\MascotaFeliz\Proyecto-MASCOTAFELIZ-CYBERLOWE-6\Veterinaria.App.Presentacion\o
 C:\MascotaFeliz\Proyecto-MASCOTAFELIZ-CYBERLOWE-6\Veterinaria.App.Presentacion\obj\Debug\netcoreapp3.1\Veterinaria.App.Presentacion.pdb
 C:\MascotaFeliz\Proyecto-MASCOTAFELIZ-CYBERLOWE-6\Veterinaria.App.Presentacion\obj\Debug\netcoreapp3.1\Veterinaria.App.Presentacion.genruntimeconfig.cache
 C:\MascotaFeliz\Proyecto-MASCOTAFELIZ-CYBERLOWE-6\Veterinaria.App.Presentacion\obj\Debug\netcoreapp3.1\Razor\Pages\Vet_Mascota\Edit_Mas.cshtml.g.cs
+=======
+C:\proyecto\Proyecto-MASCOTAFELIZ-CYBERLOWE\Veterinaria.App.Presentacion\obj\Debug\netcoreapp3.1\Razor\Pages\Vet_Mascota\Details_Mas.cshtml.g.cs
+C:\proyecto\Proyecto-MASCOTAFELIZ-CYBERLOWE\Veterinaria.App.Presentacion\obj\Debug\netcoreapp3.1\Razor\Pages\Vet_Mascota\Lista.cshtml.g.cs
+C:\proyecto\Proyecto-MASCOTAFELIZ-CYBERLOWE\Veterinaria.App.Presentacion\obj\Debug\netcoreapp3.1\Razor\Pages\Vet_Propietario\Details.cshtml.g.cs
+C:\proyecto\Proyecto-MASCOTAFELIZ-CYBERLOWE\Veterinaria.App.Presentacion\obj\Debug\netcoreapp3.1\Razor\Pages\Vet_Propietario\Edit.cshtml.g.cs
+C:\proyecto\Proyecto-MASCOTAFELIZ-CYBERLOWE\Veterinaria.App.Presentacion\obj\Debug\netcoreapp3.1\Razor\Pages\Vet_Propietario\List.cshtml.g.cs
+C:\proyecto\Proyecto-MASCOTAFELIZ-CYBERLOWE\Veterinaria.App.Presentacion\obj\Debug\netcoreapp3.1\Razor\Pages\salud\Listasalud.cshtml.g.cs
+>>>>>>> 384ce761c4901a990fa205102e5cf45f8f36fda9
