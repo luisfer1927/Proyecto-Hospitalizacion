@@ -7,45 +7,41 @@ namespace Veterinaria.App.Persistencia.AppRepositorios
 {
     public class RepositorioPropietario : IRepositorioPropietario
     {
-        List<Propietario> propietario;
-
-        public RepositorioPropietario()
+       private readonly AppContext _appContext;
+       
+        public RepositorioPropietario(AppContext appContext)
         {
-            propietario = new List<Propietario>()
-            {
-                new Propietario{Id=1,Nombre="Mateo",Apellidos="Salazar Ortiz",Telefono="3182909852",Cedula="1005450340",Direccion="calle 32e",Correo="mateo@gmail.com"},
-                new Propietario{Id=2,Nombre="luis",Apellidos="benitez",Telefono="3152776846",Cedula="20229292",Direccion="calle 32e",Correo="luis@gmail.com"},
-                new Propietario{Id=3,Nombre="Josue",Apellidos="Morales",Telefono="3182909852",Cedula="723783272",Direccion="calle 56e",Correo="josuemorales@gmail.com"},
-                new Propietario{Id=4,Nombre="Julian",Apellidos="Avila",Telefono="3005970050",Cedula="1015409671",Direccion="calle 152",Correo="julavil127@gmail.com"},
-                new Propietario{Id=5,Nombre="luis",Apellidos="benitez",Telefono="3152776846",Cedula="20229292",Direccion="calle 32e",Correo="luis@gmail.com"}
-
-            };
+            _appContext = appContext;
         }
-        public Propietario AddPropietario(Propietario propietarios)
+        Propietario IRepositorioPropietario.AddPropietario(Propietario propietarios)
         {
-           propietarios.Id=propietario.Max(r => r.Id)+1;
-           propietario.Add(propietarios);
-           return propietarios;
+           var propietarioAdicionado = _appContext.propietario.Add(propietarios);
+            _appContext.SaveChanges();
+            return propietarioAdicionado.Entity;
         }
 
-        public void DeletePropietario(int idPropietario)
+        void IRepositorioPropietario.DeletePropietario(int idPropietario)
         {
-            throw new System.NotImplementedException();
+            var PropietarioEncontrado = _appContext.propietario.FirstOrDefault(c => c.Id == idPropietario);
+            if (PropietarioEncontrado == null)
+                return;
+            _appContext.propietario.Remove(PropietarioEncontrado);
+            _appContext.SaveChanges();
         }
 
-        public IEnumerable<Propietario> GetAll()
+        IEnumerable<Propietario> IRepositorioPropietario.GetAll()
         {
-            return propietario;
+            return _appContext.propietario;
         }
 
-        public Propietario GetPropietario(int IdPropietario)
+        Propietario IRepositorioPropietario.GetPropietario(int IdPropietario)
         {
-            return propietario.SingleOrDefault(s => s.Id==IdPropietario);
+            return _appContext.propietario.FirstOrDefault(c => c.Id == idPropietario);
         }
 
-        public Propietario UpdatePropietario(Propietario propietarioactualizado)
+        Propietario IRepositorioPropietario.UpdatePropietario(Propietario propietarioactualizado)
         {
-            var Propietarios= propietario.SingleOrDefault(r => r.Id==propietarioactualizado.Id);
+            var Propietarios= _appContext.propietario.SingleOrDefault(r => r.Id==propietarioactualizado.Id);
             if(Propietarios!=null)
             {
                 Propietarios.Id=propietarioactualizado.Id;
@@ -55,6 +51,8 @@ namespace Veterinaria.App.Persistencia.AppRepositorios
                 Propietarios.Correo=propietarioactualizado.Correo;
                 Propietarios.Direccion=propietarioactualizado.Direccion;
                 Propietarios.Telefono=propietarioactualizado.Telefono;
+
+                _appContext.SaveChanges();
             }
             return Propietarios;
         }
