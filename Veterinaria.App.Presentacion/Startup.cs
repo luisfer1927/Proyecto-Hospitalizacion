@@ -25,7 +25,7 @@ namespace Veterinaria.App.Presentacion
         public void ConfigureServices(IServiceCollection services)
         {
             services.AddRazorPages();
-            services.AddSingleton<IRepositorioPropietario, RepositorioPropietario>();
+            //services.AddSingleton<IRepositorioPropietario, RepositorioPropietario>();
             services.AddSingleton<IRepositorioMascota, RepositorioMascota>();
             services.AddSingleton<IRepositorioEstadosalud, RepositorioEstadosalud>();
         }
