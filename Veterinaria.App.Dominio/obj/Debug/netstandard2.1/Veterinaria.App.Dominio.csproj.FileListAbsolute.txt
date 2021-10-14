@@ -64,3 +64,13 @@ C:\MascotaFeliz\Proyecto-MASCOTAFELIZ-CYBERLOWE-4\Veterinaria.App.Dominio\obj\De
 C:\MascotaFeliz\Proyecto-MASCOTAFELIZ-CYBERLOWE-4\Veterinaria.App.Dominio\obj\Debug\netstandard2.1\Veterinaria.App.Dominio.csproj.CoreCompileInputs.cache
 C:\MascotaFeliz\Proyecto-MASCOTAFELIZ-CYBERLOWE-4\Veterinaria.App.Dominio\obj\Debug\netstandard2.1\Veterinaria.App.Dominio.dll
 C:\MascotaFeliz\Proyecto-MASCOTAFELIZ-CYBERLOWE-4\Veterinaria.App.Dominio\obj\Debug\netstandard2.1\Veterinaria.App.Dominio.pdb
+C:\MascotaFeliz\Proyecto-MASCOTAFELIZ-CYBERLOWE-6\Veterinaria.App.Dominio\bin\Debug\netstandard2.1\Veterinaria.App.Dominio.deps.json
+C:\MascotaFeliz\Proyecto-MASCOTAFELIZ-CYBERLOWE-6\Veterinaria.App.Dominio\bin\Debug\netstandard2.1\Veterinaria.App.Dominio.dll
+C:\MascotaFeliz\Proyecto-MASCOTAFELIZ-CYBERLOWE-6\Veterinaria.App.Dominio\bin\Debug\netstandard2.1\Veterinaria.App.Dominio.pdb
+C:\MascotaFeliz\Proyecto-MASCOTAFELIZ-CYBERLOWE-6\Veterinaria.App.Dominio\obj\Debug\netstandard2.1\Veterinaria.App.Dominio.csproj.AssemblyReference.cache
+C:\MascotaFeliz\Proyecto-MASCOTAFELIZ-CYBERLOWE-6\Veterinaria.App.Dominio\obj\Debug\netstandard2.1\Veterinaria.App.Dominio.GeneratedMSBuildEditorConfig.editorconfig
+C:\MascotaFeliz\Proyecto-MASCOTAFELIZ-CYBERLOWE-6\Veterinaria.App.Dominio\obj\Debug\netstandard2.1\Veterinaria.App.Dominio.AssemblyInfoInputs.cache
+C:\MascotaFeliz\Proyecto-MASCOTAFELIZ-CYBERLOWE-6\Veterinaria.App.Dominio\obj\Debug\netstandard2.1\Veterinaria.App.Dominio.AssemblyInfo.cs
+C:\MascotaFeliz\Proyecto-MASCOTAFELIZ-CYBERLOWE-6\Veterinaria.App.Dominio\obj\Debug\netstandard2.1\Veterinaria.App.Dominio.csproj.CoreCompileInputs.cache
+C:\MascotaFeliz\Proyecto-MASCOTAFELIZ-CYBERLOWE-6\Veterinaria.App.Dominio\obj\Debug\netstandard2.1\Veterinaria.App.Dominio.dll
+C:\MascotaFeliz\Proyecto-MASCOTAFELIZ-CYBERLOWE-6\Veterinaria.App.Dominio\obj\Debug\netstandard2.1\Veterinaria.App.Dominio.pdb

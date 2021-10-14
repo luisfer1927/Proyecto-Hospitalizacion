@@ -1,8 +1,14 @@
 {
   "version": 2,
+<<<<<<< HEAD
+  "dgSpecHash": "zBBcgTl16rsUosyJLkMe8OJcamVvbYrdXfq9RkG/aZOHekZdSDXKtp9Wktg88vP+coJQObS2CAZaLB9ZXV0Pzg==",
+  "success": true,
+  "projectFilePath": "C:\\MascotaFeliz\\Proyecto-MASCOTAFELIZ-CYBERLOWE-6\\Veterinaria.App.Dominio\\Veterinaria.App.Dominio.csproj",
+=======
   "dgSpecHash": "a1Y7tY2VFsz0kCfzID6qnqsCorAKL8oY8W2RpeVDOsIQ82ioA+zlY6qgNVZ7xn4J09cw4A7xsgPw20n8DAaHbw==",
   "success": true,
   "projectFilePath": "C:\\proyecto\\Proyecto-MASCOTAFELIZ-CYBERLOWE\\Veterinaria.App.Dominio\\Veterinaria.App.Dominio.csproj",
+>>>>>>> 384ce761c4901a990fa205102e5cf45f8f36fda9
   "expectedPackageFiles": [
     "C:\\Users\\mateo\\.nuget\\packages\\humanizer.core\\2.8.26\\humanizer.core.2.8.26.nupkg.sha512",
     "C:\\Users\\mateo\\.nuget\\packages\\microsoft.csharp\\4.7.0\\microsoft.csharp.4.7.0.nupkg.sha512",
