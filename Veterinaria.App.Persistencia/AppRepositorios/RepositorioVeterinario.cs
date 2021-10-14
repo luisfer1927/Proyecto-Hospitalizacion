@@ -7,25 +7,47 @@ namespace Veterinaria.App.Persistencia.AppRepositorios
 {
     public class RepositorioVeterinario:IRepositorioVeterinario
     {
-        public Veterinario AddVeterinario(Veterinario veterinario)
+        private readonly AppContext _appContext;
+
+        public RepositorioVeterinario(AppContext appContext)
         {
-            throw new System.NotImplementedException();
+             _appContext = appContext;
         }
-        public void DeleteVeterinario(int idVeterinario)
+        Veterinario IRepositorioVeterinario.AddVeterinario(Veterinario veterinarios)
         {
-            throw new System.NotImplementedException();
+           var veterinarioAdicionado = _appContext.veterinario.Add(veterinarios);
+            _appContext.SaveChanges();
+            return veterinarioAdicionado.Entity;
         }
-        public IEnumerable<Veterinario> GetAll()
+        void IRepositorioVeterinario.DeleteVeterinario(int idVeterinario)
         {
-            throw new System.NotImplementedException();
+            var VeterinarioEncontrado = _appContext.veterinario.FirstOrDefault(c => c.Id == idVeterinario);
+            if (VeterinarioEncontrado == null)
+                return;
+            _appContext.veterinario.Remove(VeterinarioEncontrado);
+            _appContext.SaveChanges();
         }
-        public Veterinario GetVeterinario(int idVeterinario)
+        IEnumerable<Veterinario> IRepositorioVeterinario.GetAll()
         {
-            throw new System.NotImplementedException();
+            return _appContext.veterinario;
         }
-        public Veterinario UpdateVeterinario(Veterinario veterinario)
+        Veterinario IRepositorioVeterinario.GetVeterinario(int idVeterinario)
         {
-            throw new System.NotImplementedException();
+            return _appContext.veterinario.FirstOrDefault(c => c.Id == idVeterinario);
+        }
+        Veterinario IRepositorioVeterinario.UpdateVeterinario(Veterinario veterinarios)
+        {
+            var Veterinarios= _appContext.veterinario.SingleOrDefault(r => r.Id==veterinarios.Id);
+            if(Veterinarios!=null)
+            {
+                Veterinarios.Id=propietarioactualizado.Id;
+                Veterinarios.Nombre=propietarioactualizado.Nombre;
+                Veterinarios.Apellidos=propietarioactualizado.Apellidos;
+                Veterinarios.Telefono=propietarioactualizado.Telefono;
+                Veterinarios.Targeta_Profesional=veterinarios.Targeta_Profesional;
+                _appContext.SaveChanges();
+            }
+            return Veterinarios;
         }
         public Veterinario UpdateVeterinario(Veterinario veterinario, int idVeterinario)
         {
