@@ -730,3 +730,4 @@ C:\proyecto\Proyecto-MASCOTAFELIZ-CYBERLOWE\Veterinaria.App.Presentacion\obj\Deb
 C:\proyecto\Proyecto-MASCOTAFELIZ-CYBERLOWE\Veterinaria.App.Presentacion\obj\Debug\netcoreapp3.1\Razor\Pages\Vet_Propietario\List.cshtml.g.cs
 C:\proyecto\Proyecto-MASCOTAFELIZ-CYBERLOWE\Veterinaria.App.Presentacion\obj\Debug\netcoreapp3.1\Razor\Pages\salud\Listasalud.cshtml.g.cs
 >>>>>>> 384ce761c4901a990fa205102e5cf45f8f36fda9
+C:\proyecto\Proyecto-MASCOTAFELIZ-CYBERLOWE\Veterinaria.App.Presentacion\obj\Debug\netcoreapp3.1\Razor\Pages\Vet_Mascota\Edit_Mas.cshtml.g.cs

@@ -14452,6 +14452,11 @@
       "FileKind": "mvc"
     },
     {
+      "FilePath": "c:\\proyecto\\Proyecto-MASCOTAFELIZ-CYBERLOWE\\Veterinaria.App.Presentacion\\Pages\\Vet_Mascota\\Edit_Mas.cshtml",
+      "TargetPath": "Pages\\Vet_Mascota\\Edit_Mas.cshtml",
+      "FileKind": "mvc"
+    },
+    {
       "FilePath": "c:\\proyecto\\Proyecto-MASCOTAFELIZ-CYBERLOWE\\Veterinaria.App.Presentacion\\Pages\\Vet_Mascota\\Lista.cshtml",
       "TargetPath": "Pages\\Vet_Mascota\\Lista.cshtml",
       "FileKind": "mvc"

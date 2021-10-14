@@ -36,7 +36,7 @@ namespace Veterinaria.App.Persistencia.AppRepositorios
 
         Propietario IRepositorioPropietario.GetPropietario(int IdPropietario)
         {
-            return _appContext.propietario.FirstOrDefault(c => c.Id == idPropietario);
+            return _appContext.propietario.FirstOrDefault(c => c.Id == IdPropietario);
         }
 
         Propietario IRepositorioPropietario.UpdatePropietario(Propietario propietarioactualizado)

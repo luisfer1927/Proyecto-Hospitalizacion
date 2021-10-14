@@ -40,10 +40,10 @@ namespace Veterinaria.App.Persistencia.AppRepositorios
             var Veterinarios= _appContext.veterinario.SingleOrDefault(r => r.Id==veterinarios.Id);
             if(Veterinarios!=null)
             {
-                Veterinarios.Id=propietarioactualizado.Id;
-                Veterinarios.Nombre=propietarioactualizado.Nombre;
-                Veterinarios.Apellidos=propietarioactualizado.Apellidos;
-                Veterinarios.Telefono=propietarioactualizado.Telefono;
+                Veterinarios.Id=veterinarios.Id;
+                Veterinarios.Nombre=veterinarios.Nombre;
+                Veterinarios.Apellidos=veterinarios.Apellidos;
+                Veterinarios.Telefono=veterinarios.Telefono;
                 Veterinarios.Targeta_Profesional=veterinarios.Targeta_Profesional;
                 _appContext.SaveChanges();
             }

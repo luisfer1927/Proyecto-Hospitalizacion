@@ -15,9 +15,9 @@ namespace Veterinaria.App.Presentacion.Pages
 
         public Propietario Propietario {get;set;}
 
-        public DetailsModel(IRepositorioPropietario repositorioPropietario)
+        public DetailsModel()
         {
-            this.RepositorioPropietario = repositorioPropietario;
+            this.RepositorioPropietario = new RepositorioPropietario(new Veterinaria.App.Persistencia.AppContext());
 
         }
 

@@ -13,9 +13,9 @@ namespace Veterinaria.App.Presentacion.Pages
     {
         private readonly IRepositorioPropietario repositorioPropietarios;
         public IEnumerable<Propietario> Propietarios{get;set;}
-        public ListModel(IRepositorioPropietario repositorioPropietarios)
+        public ListModel()
         {
-            this.repositorioPropietarios=repositorioPropietarios;
+            this.repositorioPropietarios=new RepositorioPropietario(new Veterinaria.App.Persistencia.AppContext());
         } 
         public void OnGet()
         {
