@@ -66,11 +66,11 @@ namespace Veterinaria.App.Persistencia.Migrations
                         .HasColumnType("int")
                         .UseIdentityColumn();
 
-                    b.Property<int>("Edad")
-                        .HasColumnType("int");
+                    b.Property<string>("Edad")
+                        .HasColumnType("nvarchar(max)");
 
-                    b.Property<bool>("Estado_Salud")
-                        .HasColumnType("bit");
+                    b.Property<string>("Estado_Salud")
+                        .HasColumnType("nvarchar(max)");
 
                     b.Property<string>("Nombre")
                         .HasColumnType("nvarchar(max)");
@@ -78,12 +78,10 @@ namespace Veterinaria.App.Persistencia.Migrations
                     b.Property<string>("Tipo_Mascota")
                         .HasColumnType("nvarchar(max)");
 
-                    b.Property<int?>("dueñoId")
-                        .HasColumnType("int");
+                    b.Property<string>("dueño")
+                        .HasColumnType("nvarchar(max)");
 
                     b.HasKey("id");
-
-                    b.HasIndex("dueñoId");
 
                     b.ToTable("mascota");
                 });
@@ -122,8 +120,8 @@ namespace Veterinaria.App.Persistencia.Migrations
                         .HasColumnType("int")
                         .UseIdentityColumn();
 
-                    b.Property<DateTime>("Fecha")
-                        .HasColumnType("datetime2");
+                    b.Property<string>("Fecha")
+                        .HasColumnType("nvarchar(max)");
 
                     b.Property<string>("Motivo_Visita")
                         .HasColumnType("nvarchar(max)");
@@ -177,15 +175,6 @@ namespace Veterinaria.App.Persistencia.Migrations
                     b.Navigation("masco_estadosalud");
 
                     b.Navigation("visit");
-                });
-
-            modelBuilder.Entity("Veterinaria.App.Dominio.Mascota", b =>
-                {
-                    b.HasOne("Veterinaria.App.Dominio.Propietario", "dueño")
-                        .WithMany()
-                        .HasForeignKey("dueñoId");
-
-                    b.Navigation("dueño");
                 });
 
             modelBuilder.Entity("Veterinaria.App.Dominio.Visita", b =>

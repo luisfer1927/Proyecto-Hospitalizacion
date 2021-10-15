@@ -15,6 +15,8 @@ namespace Veterinaria.App.Presentacion.Pages
         [BindProperty]
         public Propietario Propietario {get;set;}
 
+        public IEnumerable<Propietario> Propietarios{get;set;}
+
         public EditModel()
         {
             this.RepositorioPropietario =new RepositorioPropietario(new Veterinaria.App.Persistencia.AppContext());

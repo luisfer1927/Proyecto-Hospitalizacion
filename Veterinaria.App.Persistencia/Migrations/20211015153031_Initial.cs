@@ -1,5 +1,4 @@
-﻿using System;
-using Microsoft.EntityFrameworkCore.Migrations;
+﻿using Microsoft.EntityFrameworkCore.Migrations;
 
 namespace Veterinaria.App.Persistencia.Migrations
 {
@@ -7,6 +6,23 @@ namespace Veterinaria.App.Persistencia.Migrations
     {
         protected override void Up(MigrationBuilder migrationBuilder)
         {
+            migrationBuilder.CreateTable(
+                name: "mascota",
+                columns: table => new
+                {
+                    id = table.Column<int>(type: "int", nullable: false)
+                        .Annotation("SqlServer:Identity", "1, 1"),
+                    Nombre = table.Column<string>(type: "nvarchar(max)", nullable: true),
+                    Edad = table.Column<string>(type: "nvarchar(max)", nullable: true),
+                    Tipo_Mascota = table.Column<string>(type: "nvarchar(max)", nullable: true),
+                    Estado_Salud = table.Column<string>(type: "nvarchar(max)", nullable: true),
+                    dueño = table.Column<string>(type: "nvarchar(max)", nullable: true)
+                },
+                constraints: table =>
+                {
+                    table.PrimaryKey("PK_mascota", x => x.id);
+                });
+
             migrationBuilder.CreateTable(
                 name: "personas",
                 columns: table => new
@@ -28,35 +44,12 @@ namespace Veterinaria.App.Persistencia.Migrations
                 });
 
             migrationBuilder.CreateTable(
-                name: "mascota",
-                columns: table => new
-                {
-                    id = table.Column<int>(type: "int", nullable: false)
-                        .Annotation("SqlServer:Identity", "1, 1"),
-                    Nombre = table.Column<string>(type: "nvarchar(max)", nullable: true),
-                    Edad = table.Column<int>(type: "int", nullable: false),
-                    Tipo_Mascota = table.Column<string>(type: "nvarchar(max)", nullable: true),
-                    Estado_Salud = table.Column<bool>(type: "nvarchar(max)", nullable: false),
-                    dueñoId = table.Column<int>(type: "int", nullable: true)
-                },
-                constraints: table =>
-                {
-                    table.PrimaryKey("PK_mascota", x => x.id);
-                    table.ForeignKey(
-                        name: "FK_mascota_personas_dueñoId",
-                        column: x => x.dueñoId,
-                        principalTable: "personas",
-                        principalColumn: "Id",
-                        onDelete: ReferentialAction.Restrict);
-                });
-
-            migrationBuilder.CreateTable(
                 name: "visita",
                 columns: table => new
                 {
                     id = table.Column<int>(type: "int", nullable: false)
                         .Annotation("SqlServer:Identity", "1, 1"),
-                    Fecha = table.Column<DateTime>(type: "datetime2", nullable: false),
+                    Fecha = table.Column<string>(type: "nvarchar(max)", nullable: true),
                     Motivo_Visita = table.Column<string>(type: "nvarchar(max)", nullable: true),
                     veterinario_visitaId = table.Column<int>(type: "int", nullable: true)
                 },
@@ -112,11 +105,6 @@ namespace Veterinaria.App.Persistencia.Migrations
                 name: "IX_estadosalud_visitid",
                 table: "estadosalud",
                 column: "visitid");
-
-            migrationBuilder.CreateIndex(
-                name: "IX_mascota_dueñoId",
-                table: "mascota",
-                column: "dueñoId");
 
             migrationBuilder.CreateIndex(
                 name: "IX_visita_veterinario_visitaId",
