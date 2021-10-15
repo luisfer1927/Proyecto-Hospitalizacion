@@ -35,7 +35,11 @@ namespace Veterinaria.App.Persistencia.Migrations
                     Nombre = table.Column<string>(type: "nvarchar(max)", nullable: true),
                     Edad = table.Column<string>(type: "nvarchar(max)", nullable: true),
                     Tipo_Mascota = table.Column<string>(type: "nvarchar(max)", nullable: true),
+<<<<<<< HEAD:Veterinaria.App.Persistencia/Migrations/20211015163427_initial.cs
                     Estado_Salud = table.Column<string>(type: "nvarchar(max)", nullable: true),
+=======
+                    Estado_Salud = table.Column<bool>(type: "nvarchar(max)", nullable: false),
+>>>>>>> 7c69d86d6ebf0e1604ac4a155e900b1c28648e32:Veterinaria.App.Persistencia/Migrations/20210925132930_Initial.cs
                     dueñoId = table.Column<int>(type: "int", nullable: true)
                 },
                 constraints: table =>

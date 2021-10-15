@@ -1,6 +1,10 @@
 {
   "version": 2,
+<<<<<<< HEAD
   "dgSpecHash": "JPhB5e7TUB8YfaBpkN9NieuOdZ/q8x9eYBHpw22TF1pIvZozlWsecGJzXHJeX2R3NnbhasBC+y4816On9+NAxg==",
+=======
+  "dgSpecHash": "YSaH+1jxlgvi1IibSuLtLRKTzPe4yNb4TbAiCInzOCLN0W4Jb51ZYdBawRG4d2fN0VrOS49fRWgZNivBqlKnaA==",
+>>>>>>> 7c69d86d6ebf0e1604ac4a155e900b1c28648e32
   "success": true,
   "projectFilePath": "C:\\MascotaFeliz\\Proyecto-MASCOTAFELIZ-CYBERLOWE-8\\Veterinaria.App.Consola\\Veterinaria.App.Consola.csproj",
   "expectedPackageFiles": [

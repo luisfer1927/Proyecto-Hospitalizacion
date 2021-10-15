@@ -71,7 +71,11 @@ namespace Veterinaria.App.Persistencia.Migrations
                     b.Property<string>("Edad")
                         .HasColumnType("nvarchar(max)");
 
+<<<<<<< HEAD:Veterinaria.App.Persistencia/Migrations/20211015163427_initial.Designer.cs
                     b.Property<string>("Estado_Salud")
+=======
+                    b.Property<bool>("Estado_Salud")
+>>>>>>> 7c69d86d6ebf0e1604ac4a155e900b1c28648e32:Veterinaria.App.Persistencia/Migrations/20210925132930_Initial.Designer.cs
                         .HasColumnType("nvarchar(max)");
 
                     b.Property<string>("Nombre")

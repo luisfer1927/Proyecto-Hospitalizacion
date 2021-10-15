@@ -1,6 +1,10 @@
 {
   "version": 2,
+<<<<<<< HEAD
   "dgSpecHash": "AfMfDNCTBLz0xwnAgMBBD5QulTbvbgPaP7OkxHRr7vwBhxqWfSaTWMu/gzb37+xvvfhhwd/lhfSKFNKuuhRQTQ==",
+=======
+  "dgSpecHash": "jJZkBaqR0RMMz9TmBdFLXdMFwrFTb1JRom7voNOncqh53b7S07acWg8sgwZeev7jlYoZtW0AcUbbLtkG+8Vq5g==",
+>>>>>>> 7c69d86d6ebf0e1604ac4a155e900b1c28648e32
   "success": true,
   "projectFilePath": "C:\\MascotaFeliz\\Proyecto-MASCOTAFELIZ-CYBERLOWE-8\\Veterinaria.App.Persistencia\\Veterinaria.App.Persistencia.csproj",
   "expectedPackageFiles": [
