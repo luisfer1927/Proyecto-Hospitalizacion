@@ -1,0 +1,59 @@
+﻿@page
+@model Veterinaria.App.Presentacion.Pages.Lista_VetModel
+@{
+}
+<br>
+<h1>Listado de Veterinarios</h1>
+<br>
+<table class="table">
+    <tr>
+        <td id="titulos">ID</td>
+        <td id="titulos">Nombre</td>
+        <td id="titulos">Apellidos</td>
+        <td id="titulos">Teléfono</td>
+        <td id="titulos">Tarjeta Profesional</td>
+        <td id="titulos">Detalles</td>
+        <td id="titulos">Editar</td>
+        <td id="titulos">Borrar</td>
+
+    </tr>
+    <br>
+    @foreach (var Veterinario in Model.Veterinarios)
+    {
+        <tr>
+            <td>@Veterinario.Id</td>
+            <td>@Veterinario.Nombre</td>
+            <td>@Veterinario.Apellidos</td>
+            <td>@Veterinario.Telefono</td>
+            <td>@Veterinario.Tarjeta_Profesional</td>
+            
+
+            <td>
+                <a class="btn btn-primary table-btn" asp-page="./Detalles_Vet" asp-route-VeterinarioId="@Veterinario.Id">
+            <i class="fas fa-info-circle fa-lg"></i>
+            
+            </a>
+
+            </td>
+            <td>
+                <a class="btn btn-primary table-btn" asp-page="./Editar_Vet" asp-route-VeterinarioId="@Veterinario.Id">
+            <i class="fas fa-edit fa-lg"></i>
+            
+            </a>
+            </td>
+
+            <td>
+                <a class="btn btn-primary table-btn" asp-page="./Borrar_Vet" asp-route-VeterinarioId="@Veterinario.Id">
+            <i class="fas fa-trash-alt fa-lg"></i>
+            </a>
+            
+            </td>
+
+        </tr>
+        
+        
+    }
+</table>
+            <a asp-page="./Editar_Vet" class="btn btn-primary table-btn">Adicionar
+            <i class="fas fa-user-plus fa-lg"></i> 
+            </a> 

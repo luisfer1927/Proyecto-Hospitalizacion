@@ -1,9 +1,8 @@
-﻿using System;
-using Microsoft.EntityFrameworkCore.Migrations;
+﻿using Microsoft.EntityFrameworkCore.Migrations;
 
 namespace Veterinaria.App.Persistencia.Migrations
 {
-    public partial class Initial : Migration
+    public partial class initial : Migration
     {
         protected override void Up(MigrationBuilder migrationBuilder)
         {
@@ -20,7 +19,7 @@ namespace Veterinaria.App.Persistencia.Migrations
                     Cedula = table.Column<string>(type: "nvarchar(max)", nullable: true),
                     Direccion = table.Column<string>(type: "nvarchar(max)", nullable: true),
                     Correo = table.Column<string>(type: "nvarchar(max)", nullable: true),
-                    Targeta_Profesional = table.Column<int>(type: "int", nullable: true)
+                    Tarjeta_Profesional = table.Column<int>(type: "int", nullable: true)
                 },
                 constraints: table =>
                 {
@@ -34,9 +33,9 @@ namespace Veterinaria.App.Persistencia.Migrations
                     id = table.Column<int>(type: "int", nullable: false)
                         .Annotation("SqlServer:Identity", "1, 1"),
                     Nombre = table.Column<string>(type: "nvarchar(max)", nullable: true),
-                    Edad = table.Column<int>(type: "int", nullable: false),
+                    Edad = table.Column<string>(type: "nvarchar(max)", nullable: true),
                     Tipo_Mascota = table.Column<string>(type: "nvarchar(max)", nullable: true),
-                    Estado_Salud = table.Column<bool>(type: "bit", nullable: false),
+                    Estado_Salud = table.Column<string>(type: "nvarchar(max)", nullable: true),
                     dueñoId = table.Column<int>(type: "int", nullable: true)
                 },
                 constraints: table =>
@@ -56,13 +55,20 @@ namespace Veterinaria.App.Persistencia.Migrations
                 {
                     id = table.Column<int>(type: "int", nullable: false)
                         .Annotation("SqlServer:Identity", "1, 1"),
-                    Fecha = table.Column<DateTime>(type: "datetime2", nullable: false),
+                    Fecha = table.Column<string>(type: "nvarchar(max)", nullable: true),
                     Motivo_Visita = table.Column<string>(type: "nvarchar(max)", nullable: true),
-                    veterinario_visitaId = table.Column<int>(type: "int", nullable: true)
+                    veterinario_visitaId = table.Column<int>(type: "int", nullable: true),
+                    mascotaid = table.Column<int>(type: "int", nullable: true)
                 },
                 constraints: table =>
                 {
                     table.PrimaryKey("PK_visita", x => x.id);
+                    table.ForeignKey(
+                        name: "FK_visita_mascota_mascotaid",
+                        column: x => x.mascotaid,
+                        principalTable: "mascota",
+                        principalColumn: "id",
+                        onDelete: ReferentialAction.Restrict);
                     table.ForeignKey(
                         name: "FK_visita_personas_veterinario_visitaId",
                         column: x => x.veterinario_visitaId,
@@ -119,6 +125,11 @@ namespace Veterinaria.App.Persistencia.Migrations
                 column: "dueñoId");
 
             migrationBuilder.CreateIndex(
+                name: "IX_visita_mascotaid",
+                table: "visita",
+                column: "mascotaid");
+
+            migrationBuilder.CreateIndex(
                 name: "IX_visita_veterinario_visitaId",
                 table: "visita",
                 column: "veterinario_visitaId");
@@ -130,10 +141,10 @@ namespace Veterinaria.App.Persistencia.Migrations
                 name: "estadosalud");
 
             migrationBuilder.DropTable(
-                name: "mascota");
+                name: "visita");
 
             migrationBuilder.DropTable(
-                name: "visita");
+                name: "mascota");
 
             migrationBuilder.DropTable(
                 name: "personas");

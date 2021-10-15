@@ -10,8 +10,8 @@ using Veterinaria.App.Persistencia;
 namespace Veterinaria.App.Persistencia.Migrations
 {
     [DbContext(typeof(AppContext))]
-    [Migration("20210925132930_Initial")]
-    partial class Initial
+    [Migration("20211015163427_initial")]
+    partial class initial
     {
         protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {
@@ -68,11 +68,11 @@ namespace Veterinaria.App.Persistencia.Migrations
                         .HasColumnType("int")
                         .UseIdentityColumn();
 
-                    b.Property<int>("Edad")
-                        .HasColumnType("int");
+                    b.Property<string>("Edad")
+                        .HasColumnType("nvarchar(max)");
 
-                    b.Property<bool>("Estado_Salud")
-                        .HasColumnType("bit");
+                    b.Property<string>("Estado_Salud")
+                        .HasColumnType("nvarchar(max)");
 
                     b.Property<string>("Nombre")
                         .HasColumnType("nvarchar(max)");
@@ -124,16 +124,21 @@ namespace Veterinaria.App.Persistencia.Migrations
                         .HasColumnType("int")
                         .UseIdentityColumn();
 
-                    b.Property<DateTime>("Fecha")
-                        .HasColumnType("datetime2");
+                    b.Property<string>("Fecha")
+                        .HasColumnType("nvarchar(max)");
 
                     b.Property<string>("Motivo_Visita")
                         .HasColumnType("nvarchar(max)");
+
+                    b.Property<int?>("mascotaid")
+                        .HasColumnType("int");
 
                     b.Property<int?>("veterinario_visitaId")
                         .HasColumnType("int");
 
                     b.HasKey("id");
+
+                    b.HasIndex("mascotaid");
 
                     b.HasIndex("veterinario_visitaId");
 
@@ -160,7 +165,7 @@ namespace Veterinaria.App.Persistencia.Migrations
                 {
                     b.HasBaseType("Veterinaria.App.Dominio.Persona");
 
-                    b.Property<int>("Targeta_Profesional")
+                    b.Property<int>("Tarjeta_Profesional")
                         .HasColumnType("int");
 
                     b.HasDiscriminator().HasValue("Veterinario");
@@ -192,9 +197,15 @@ namespace Veterinaria.App.Persistencia.Migrations
 
             modelBuilder.Entity("Veterinaria.App.Dominio.Visita", b =>
                 {
+                    b.HasOne("Veterinaria.App.Dominio.Mascota", "mascota")
+                        .WithMany()
+                        .HasForeignKey("mascotaid");
+
                     b.HasOne("Veterinaria.App.Dominio.Veterinario", "veterinario_visita")
                         .WithMany()
                         .HasForeignKey("veterinario_visitaId");
+
+                    b.Navigation("mascota");
 
                     b.Navigation("veterinario_visita");
                 });

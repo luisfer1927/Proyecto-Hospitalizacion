@@ -3,7 +3,7 @@ namespace Veterinaria.App.Dominio
 {
   public class Veterinario:Persona
   {
-      public int Targeta_Profesional{get;set;}
+      public int Tarjeta_Profesional{get;set;}
       
   }  
 }

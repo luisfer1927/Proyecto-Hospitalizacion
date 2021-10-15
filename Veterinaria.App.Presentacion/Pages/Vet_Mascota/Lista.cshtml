@@ -35,9 +35,10 @@
             <td>@Mascota.Estado_Salud</td>
             <td>@Mascota.dueño</td>
             
+            
             <td>
             <a class="btn btn-primary table-btn" asp-page="./Details_Mas" asp-route-Mascotaid="@Mascota.id">
-            <i class="fas fa-info-circle fa-lg"></i>
+            <i class="fas fa-edit fa-lg"></i>
             Detalle Mascota
             </a>
 
@@ -49,6 +50,14 @@
             Editar
             </a>
             </td>
+
+            <td>
+                <a class="btn btn-primary table-btn" asp-page="./Delete" asp-route-Mascotaid="@Mascota.id">
+            <i class="fas fa-trash-alt fa-lg"></i>
+            </a>
+            
+            </td>
+            
         </tr>
     }
 </table>

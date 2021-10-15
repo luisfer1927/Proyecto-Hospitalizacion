@@ -8,7 +8,7 @@ namespace Veterinaria.App.Dominio
       public string Edad{get;set;}
       public string Tipo_Mascota{get;set;}
       public string Estado_Salud{get;set;}
-      public string dueño{get;set;}
+      public Propietario dueño{get;set;}
 
   }  
 }

@@ -44,7 +44,7 @@ namespace Veterinaria.App.Persistencia.AppRepositorios
                 Veterinarios.Nombre=veterinarios.Nombre;
                 Veterinarios.Apellidos=veterinarios.Apellidos;
                 Veterinarios.Telefono=veterinarios.Telefono;
-                Veterinarios.Targeta_Profesional=veterinarios.Targeta_Profesional;
+                Veterinarios.Tarjeta_Profesional=veterinarios.Tarjeta_Profesional;
                 _appContext.SaveChanges();
             }
             return Veterinarios;
