@@ -36,7 +36,7 @@ namespace Veterinaria.App.Persistencia.Migrations
                     Nombre = table.Column<string>(type: "nvarchar(max)", nullable: true),
                     Edad = table.Column<int>(type: "int", nullable: false),
                     Tipo_Mascota = table.Column<string>(type: "nvarchar(max)", nullable: true),
-                    Estado_Salud = table.Column<bool>(type: "bit", nullable: false),
+                    Estado_Salud = table.Column<bool>(type: "nvarchar(max)", nullable: false),
                     dueñoId = table.Column<int>(type: "int", nullable: true)
                 },
                 constraints: table =>

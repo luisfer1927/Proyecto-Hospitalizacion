@@ -72,7 +72,7 @@ namespace Veterinaria.App.Persistencia.Migrations
                         .HasColumnType("int");
 
                     b.Property<bool>("Estado_Salud")
-                        .HasColumnType("bit");
+                        .HasColumnType("nvarchar(max)");
 
                     b.Property<string>("Nombre")
                         .HasColumnType("nvarchar(max)");

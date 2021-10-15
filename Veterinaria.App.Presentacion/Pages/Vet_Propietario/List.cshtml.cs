@@ -13,6 +13,7 @@ namespace Veterinaria.App.Presentacion.Pages
     {
         private readonly IRepositorioPropietario repositorioPropietarios;
         public IEnumerable<Propietario> Propietarios{get;set;}
+        public Propietario borrar{get;set;}
         public ListModel()
         {
             this.repositorioPropietarios=new RepositorioPropietario(new Veterinaria.App.Persistencia.AppContext());
@@ -21,5 +22,7 @@ namespace Veterinaria.App.Presentacion.Pages
         {
             Propietarios=repositorioPropietarios.GetAll();
         }
+        
+
     }
 }

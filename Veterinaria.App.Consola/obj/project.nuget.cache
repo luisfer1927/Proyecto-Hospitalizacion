@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "DhhOEYCYTawjflYKqeQ3662tTvwenwhPWIW7WDIydlCs7NV2MGvcieY8jWNbWgDEccOKeZ2FhQZqGhxTySe5BA==",
+  "dgSpecHash": "YSaH+1jxlgvi1IibSuLtLRKTzPe4yNb4TbAiCInzOCLN0W4Jb51ZYdBawRG4d2fN0VrOS49fRWgZNivBqlKnaA==",
   "success": true,
   "projectFilePath": "C:\\proyecto\\Proyecto-MASCOTAFELIZ-CYBERLOWE\\Veterinaria.App.Consola\\Veterinaria.App.Consola.csproj",
   "expectedPackageFiles": [
@@ -102,12 +102,5 @@
     "C:\\Users\\mateo\\.nuget\\packages\\system.xml.xmldocument\\4.3.0\\system.xml.xmldocument.4.3.0.nupkg.sha512",
     "C:\\Users\\mateo\\.nuget\\packages\\system.xml.xmlserializer\\4.3.0\\system.xml.xmlserializer.4.3.0.nupkg.sha512"
   ],
-  "logs": [
-    {
-      "code": "Undefined",
-      "level": "Warning",
-      "warningLevel": 1,
-      "message": "Problema al leer el archivo de caché C:\\proyecto\\Proyecto-MASCOTAFELIZ-CYBERLOWE\\Veterinaria.App.Consola\\obj\\project.nuget.cache : Invalid property identifier character: <. Path 'version', line 3, position 0."
-    }
-  ]
+  "logs": []
 }
