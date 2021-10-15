@@ -1,0 +1,18 @@
+﻿@page
+@model Veterinaria.App.Presentacion.Pages.Detalles_VetModel
+@{
+}
+<h2>@Model.Veterinario.Nombre</h2>
+<div>
+    Id: @Model.Veterinario.Id
+</div>
+<div>
+    Apellidos: @Model.Veterinario.Apellidos
+</div>
+<div>
+    Telefono: @Model.Veterinario.Telefono
+</div>
+<div>
+    Tarjeta Profesional: @Model.Veterinario.Tarjeta_Profesional
+</div>
+<a asp-page="./Lista_Vet" class="btn-default">Lista de Veterinarios</a>

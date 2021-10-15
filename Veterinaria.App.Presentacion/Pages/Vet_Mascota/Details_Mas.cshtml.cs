@@ -15,10 +15,9 @@ namespace Veterinaria.App.Presentacion.Pages
 
         public Mascota Mascota {get;set;}
 
-        public Details_MasModel(IRepositorioMascota repositorioMascota)
+        public Details_MasModel()
         {
-            this.RepositorioMascota = repositorioMascota;
-
+            this.RepositorioMascota = new RepositorioMascota(new Veterinaria.App.Persistencia.AppContext());
         }
 
         public IActionResult OnGet(int Mascotaid)

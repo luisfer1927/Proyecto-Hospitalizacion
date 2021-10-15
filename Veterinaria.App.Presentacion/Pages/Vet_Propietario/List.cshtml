@@ -24,7 +24,11 @@
         <td id="titulos">Correo</td>
         <td id="titulos">Detalles</td>
         <td id="titulos">Editar</td>
+<<<<<<< HEAD
+        <td id="titulos">Borrar</td>
+=======
         <td id="titulos">Eliminar</td>
+>>>>>>> 7c69d86d6ebf0e1604ac4a155e900b1c28648e32
 
         
     </tr>
@@ -48,11 +52,22 @@
             </td>
             <td>
                 <a class="btn btn-primary table-btn" asp-page="./Edit" asp-route-propietarioId="@Propietario.Id">
-            <i class="fas fa-address-book fa-lg"></i>
+            <i class="fas fa-edit fa-lg"></i>
             </a>
             
             </td>
+            <td>
+                <a class="btn btn-primary table-btn" asp-page="./Delete" asp-route-propietarioId="@Propietario.Id">
+            <i class="fas fa-trash-alt fa-lg"></i>
+            </a>
+            
+            </td>
+
+
         </tr>
+        
     }
 </table>
-<a asp-page="./Edit" class="btn btn-primary">Adicionar Propietario</a>
+            <a asp-page="./Edit" class="btn btn-primary table-btn">Adicionar
+            <i class="fas fa-user-plus fa-lg"></i> 
+            </a> 

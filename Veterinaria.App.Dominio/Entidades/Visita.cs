@@ -7,5 +7,7 @@ namespace Veterinaria.App.Dominio
       public string Fecha{get;set;}
       public string Motivo_Visita{get;set;}
       public Veterinario veterinario_visita{get;set;}
+      public Mascota mascota{get;set;}
+
   }  
 }

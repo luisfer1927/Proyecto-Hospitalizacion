@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\proyecto\\Proyecto-MASCOTAFELIZ-CYBERLOWE\\Veterinaria.App.Dominio\\Veterinaria.App.Dominio.csproj": {}
+    "C:\\MascotaFeliz\\Proyecto-MASCOTAFELIZ-CYBERLOWE-8\\Veterinaria.App.Dominio\\Veterinaria.App.Dominio.csproj": {}
   },
   "projects": {
-    "C:\\proyecto\\Proyecto-MASCOTAFELIZ-CYBERLOWE\\Veterinaria.App.Dominio\\Veterinaria.App.Dominio.csproj": {
+    "C:\\MascotaFeliz\\Proyecto-MASCOTAFELIZ-CYBERLOWE-8\\Veterinaria.App.Dominio\\Veterinaria.App.Dominio.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\proyecto\\Proyecto-MASCOTAFELIZ-CYBERLOWE\\Veterinaria.App.Dominio\\Veterinaria.App.Dominio.csproj",
+        "projectUniqueName": "C:\\MascotaFeliz\\Proyecto-MASCOTAFELIZ-CYBERLOWE-8\\Veterinaria.App.Dominio\\Veterinaria.App.Dominio.csproj",
         "projectName": "Veterinaria.App.Dominio",
-        "projectPath": "C:\\proyecto\\Proyecto-MASCOTAFELIZ-CYBERLOWE\\Veterinaria.App.Dominio\\Veterinaria.App.Dominio.csproj",
-        "packagesPath": "C:\\Users\\mateo\\.nuget\\packages\\",
-        "outputPath": "C:\\proyecto\\Proyecto-MASCOTAFELIZ-CYBERLOWE\\Veterinaria.App.Dominio\\obj\\",
+        "projectPath": "C:\\MascotaFeliz\\Proyecto-MASCOTAFELIZ-CYBERLOWE-8\\Veterinaria.App.Dominio\\Veterinaria.App.Dominio.csproj",
+        "packagesPath": "C:\\Users\\user\\.nuget\\packages\\",
+        "outputPath": "C:\\MascotaFeliz\\Proyecto-MASCOTAFELIZ-CYBERLOWE-8\\Veterinaria.App.Dominio\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\mateo\\AppData\\Roaming\\NuGet\\NuGet.Config"
+          "C:\\Users\\user\\AppData\\Roaming\\NuGet\\NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "netstandard2.1"
@@ -24,6 +24,7 @@
         },
         "frameworks": {
           "netstandard2.1": {
+            "targetAlias": "netstandard2.1",
             "projectReferences": {}
           }
         },
@@ -35,6 +36,7 @@
       },
       "frameworks": {
         "netstandard2.1": {
+          "targetAlias": "netstandard2.1",
           "dependencies": {
             "Microsoft.EntityFrameworkCore": {
               "target": "Package",
@@ -72,7 +74,11 @@
               "privateAssets": "all"
             }
           },
+<<<<<<< HEAD
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.400\\RuntimeIdentifierGraph.json"
+=======
           "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.414\\RuntimeIdentifierGraph.json"
+>>>>>>> 7c69d86d6ebf0e1604ac4a155e900b1c28648e32
         }
       }
     }

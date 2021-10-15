@@ -1,0 +1,32 @@
+﻿@page
+@model Veterinaria.App.Presentacion.Pages.Borrar_VetModel
+@{
+}
+<h2>Eliminando el Veterinario:@Model.Veterinario.Nombre</h2>
+<form method="post">
+    <input type="hidden" asp-for="Veterinario.Id"/>
+    
+    <div>
+        <label asp-for="Veterinario.Nombre"></label>
+        <input asp-for="Veterinario.Nombre" class="form-control"/>
+        <span class="textdanger" asp-validation-for="Veterinario.Nombre"></span>
+    </div>
+    <div>
+        <label asp-for="Veterinario.Apellidos"></label>
+        <input asp-for="Veterinario.Apellidos" class="form-control"/>
+        <span class="textdanger" asp-validation-for="Veterinario.Apellidos"></span>
+    </div>
+    <div>
+        <label asp-for="Veterinario.Telefono"></label>
+        <input asp-for="Veterinario.Telefono" class="form-control"/>
+        <span class="textdanger" asp-validation-for="Veterinario.Telefono"></span>
+    </div>
+    <div>
+        <label asp-for="Veterinario.Tarjeta_Profesional"></label>
+        <input asp-for="Veterinario.Tarjeta_Profesional" class="form-control"/>
+        <span class="textdanger" asp-validation-for="Veterinario.Tarjeta_Profesional"></span>
+    </div>
+   
+    <button type="submit" class="btn btn-primary">Borrar</button>
+</form>
+<a asp-page="./Lista_Vet" class="btn-default">lista de Propietario</a>

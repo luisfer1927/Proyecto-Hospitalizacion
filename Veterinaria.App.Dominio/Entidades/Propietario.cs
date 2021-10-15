@@ -8,5 +8,6 @@ namespace Veterinaria.App.Dominio
       public string Cedula{get;set;}
       public string Direccion{get;set;}
       public string Correo{get;set;}
+      
   }  
 }

@@ -15,9 +15,9 @@ namespace Veterinaria.App.Presentacion.Pages
         
         public IEnumerable<Mascota> Mascotas{get;set;}
 
-        public ListaModel(IRepositorioMascota repositorioMascotas)
+        public ListaModel()
         {
-            this.repositorioMascotas=repositorioMascotas;
+            this.repositorioMascotas = new RepositorioMascota(new Veterinaria.App.Persistencia.AppContext());
         } 
         
     
