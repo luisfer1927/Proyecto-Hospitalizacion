@@ -10,13 +10,8 @@ using Veterinaria.App.Persistencia;
 namespace Veterinaria.App.Persistencia.Migrations
 {
     [DbContext(typeof(AppContext))]
-<<<<<<< HEAD:Veterinaria.App.Persistencia/Migrations/20211015153031_Initial.Designer.cs
-    [Migration("20211015153031_Initial")]
+    [Migration("20211016200914_Initial")]
     partial class Initial
-=======
-    [Migration("20211015163427_initial")]
-    partial class initial
->>>>>>> 62bf2657958144e2e0ea39cd23b0b32bdf5e145d:Veterinaria.App.Persistencia/Migrations/20211015163427_initial.Designer.cs
     {
         protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {
@@ -45,7 +40,7 @@ namespace Veterinaria.App.Persistencia.Migrations
                     b.Property<double>("Peso")
                         .HasColumnType("float");
 
-                    b.Property<int?>("masco_estadosaludid")
+                    b.Property<int>("masco_estadosalud")
                         .HasColumnType("int");
 
                     b.Property<string>("recomendacion")
@@ -54,14 +49,10 @@ namespace Veterinaria.App.Persistencia.Migrations
                     b.Property<double>("temperatura")
                         .HasColumnType("float");
 
-                    b.Property<int?>("visitid")
+                    b.Property<int>("visit")
                         .HasColumnType("int");
 
                     b.HasKey("id");
-
-                    b.HasIndex("masco_estadosaludid");
-
-                    b.HasIndex("visitid");
 
                     b.ToTable("estadosalud");
                 });
@@ -76,25 +67,20 @@ namespace Veterinaria.App.Persistencia.Migrations
                     b.Property<string>("Edad")
                         .HasColumnType("nvarchar(max)");
 
-<<<<<<< HEAD:Veterinaria.App.Persistencia/Migrations/20211015153031_Initial.Designer.cs
                     b.Property<string>("Estado_Salud")
-=======
-<<<<<<< HEAD:Veterinaria.App.Persistencia/Migrations/20211015163427_initial.Designer.cs
-                    b.Property<string>("Estado_Salud")
-=======
-                    b.Property<bool>("Estado_Salud")
->>>>>>> 7c69d86d6ebf0e1604ac4a155e900b1c28648e32:Veterinaria.App.Persistencia/Migrations/20210925132930_Initial.Designer.cs
->>>>>>> 62bf2657958144e2e0ea39cd23b0b32bdf5e145d:Veterinaria.App.Persistencia/Migrations/20211015163427_initial.Designer.cs
                         .HasColumnType("nvarchar(max)");
 
                     b.Property<string>("Nombre")
                         .HasColumnType("nvarchar(max)");
 
+                    b.Property<string>("Nombre_dueño")
+                        .HasColumnType("nvarchar(max)");
+
                     b.Property<string>("Tipo_Mascota")
                         .HasColumnType("nvarchar(max)");
 
-                    b.Property<string>("dueño")
-                        .HasColumnType("nvarchar(max)");
+                    b.Property<int>("dueño")
+                        .HasColumnType("int");
 
                     b.HasKey("id");
 
@@ -180,21 +166,6 @@ namespace Veterinaria.App.Persistencia.Migrations
                         .HasColumnType("int");
 
                     b.HasDiscriminator().HasValue("Veterinario");
-                });
-
-            modelBuilder.Entity("Veterinaria.App.Dominio.EstadodeSalud", b =>
-                {
-                    b.HasOne("Veterinaria.App.Dominio.Mascota", "masco_estadosalud")
-                        .WithMany()
-                        .HasForeignKey("masco_estadosaludid");
-
-                    b.HasOne("Veterinaria.App.Dominio.Visita", "visit")
-                        .WithMany()
-                        .HasForeignKey("visitid");
-
-                    b.Navigation("masco_estadosalud");
-
-                    b.Navigation("visit");
                 });
 
             modelBuilder.Entity("Veterinaria.App.Dominio.Visita", b =>

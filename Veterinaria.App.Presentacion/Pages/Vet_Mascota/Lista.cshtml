@@ -21,7 +21,11 @@
         <td id="titulos">Edad</td>
         <td id="titulos">Tipo_Mascota</td>
         <td id="titulos">Estado_Salud</td>
-        <td id="titulos">dueño</td>
+        <td id="titulos">Codigo</td>
+        <td id="titulos">Nombre dueño</td>
+        <td id="titulos">Detalles</td>
+        <td id="titulos">Editar</td>
+        <td id="titulos">Borrar</td>
     </tr>
     <br>
     @foreach (var Mascota in Model.Mascotas)
@@ -34,12 +38,12 @@
             <td>@Mascota.Tipo_Mascota</td>
             <td>@Mascota.Estado_Salud</td>
             <td>@Mascota.dueño</td>
+            <td>@Mascota.Nombre_dueño</td>
             
             
             <td>
             <a class="btn btn-primary table-btn" asp-page="./Details_Mas" asp-route-Mascotaid="@Mascota.id">
             <i class="fas fa-edit fa-lg"></i>
-            Detalle Mascota
             </a>
 
             </td>
@@ -47,12 +51,11 @@
             <td>
                 <a class="btn btn-primary table-btn" asp-page="./Edit_Mas" asp-route-Mascotaid="@Mascota.id">
             <i class="fas fa-address-book fa-lg"></i>
-            Editar
             </a>
             </td>
 
             <td>
-                <a class="btn btn-primary table-btn" asp-page="./Delete" asp-route-Mascotaid="@Mascota.id">
+                <a class="btn btn-primary table-btn" asp-page="./Delete_M" asp-route-Mascotaid="@Mascota.id">
             <i class="fas fa-trash-alt fa-lg"></i>
             </a>
             
@@ -62,6 +65,8 @@
     }
 </table>
 
-<a asp-page="./Edit_Mas" class="btn btn-primary">Adicionar Mascota</a>
+<a asp-page="./Edit_Mas" class="btn btn-primary">Adicionar Mascota
+<i class="fas fa-user-plus fa-lg"></i> 
+            </a> 
 
 

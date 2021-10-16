@@ -27,7 +27,7 @@ namespace Veterinaria.App.Presentacion
             services.AddRazorPages();
             //services.AddSingleton<IRepositorioPropietario, RepositorioPropietario>();
             //services.AddSingleton<IRepositorioMascota, RepositorioMascota>();
-            services.AddSingleton<IRepositorioEstadosalud, RepositorioEstadosalud>();
+            //services.AddSingleton<IRepositorioEstadosalud, RepositorioEstadosalud>();
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.

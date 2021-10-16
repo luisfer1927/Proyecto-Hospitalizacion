@@ -13,6 +13,11 @@ a.navbar-brand {
   border-radius: 20px;
 }
 
+h1 {
+  font-size:35px;
+  color:#000141
+}
+
 
 .bg-white{
   background-color: #0006ff!important;
@@ -47,9 +52,35 @@ a {
 
 .div-table {
   border: 3px groove rgb(33, 176, 243);
-  padding: 20px;
+  padding:0 3%;
   background-color: rgb(119, 212, 255);
   border-radius: 10px;
+  max-width:1000px;
+	width:90%;
+  margin:20 auto;
+}
+
+.div-table .col-izq
+{
+	display:inline-block;
+	vertical-align:top;
+	width:50%;
+	text-align: justify;
+  padding-top: 15px;
+}
+.div-table .col-der
+{
+	display:inline-block;
+	vertical-align:top;
+	width:49%;
+  padding-top: 20px;
+}
+.div-table .col-der .imagen
+{
+	max-width:99%;
+  margin-left: auto;
+  display: block;
+  text-align: center;
 }
 
 

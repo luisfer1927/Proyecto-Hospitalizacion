@@ -1,0 +1,31 @@
+﻿@page
+@model Veterinaria.App.Presentacion.Pages.Detalles_saludModel
+@{
+}
+<h2>@Model.estadodeSalud.id</h2>
+<div>
+    Frecuencia_Cardiaca: @Model.estadodeSalud.Frecu_Cardia
+</div>
+<div>
+    Frecuencia_Respiratoria: @Model.estadodeSalud.Frecu_Respi
+</div>
+<div>
+    temperatura: @Model.estadodeSalud.temperatura
+</div>
+<div>
+    Estado de animo: @Model.estadodeSalud.Estado_Animo
+</div>
+<div>
+    recomendacion: @Model.estadodeSalud.recomendacion
+</div>
+<div>
+    peso: @Model.estadodeSalud.Peso
+</div>
+<div>
+    Id_mascota: @Model.estadodeSalud.masco_estadosalud
+</div>
+<div>
+    Id:visita: @Model.estadodeSalud.visit
+</div>
+
+<a asp-page="./Listasalud" class="btn-default">Lista de salud</a>

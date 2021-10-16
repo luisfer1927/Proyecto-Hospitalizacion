@@ -13,17 +13,20 @@ namespace Veterinaria.App.Presentacion.Pages
     public class Edit_MasModel : PageModel
     {
         private readonly IRepositorioMascota RepositorioMascota;
+        private readonly IRepositorioPropietario repositorioPropietario;
         [BindProperty]
         public Mascota Mascota {get;set;}
+        public Propietario Propietarios{get;set;}
 
         public Edit_MasModel()
         {
             this.RepositorioMascota = new RepositorioMascota(new Veterinaria.App.Persistencia.AppContext());
+            this.repositorioPropietario=new RepositorioPropietario(new Veterinaria.App.Persistencia.AppContext());
 
         }  
-        public IActionResult OnGet(int? Mascotaid)
+        public IActionResult OnGet(int? Mascotaid,int? Propietarioid)
         {
-            if (Mascotaid.HasValue)
+            if (Mascotaid.HasValue && Propietarioid.HasValue)
             {
                 Mascota = RepositorioMascota.GetMascota(Mascotaid.Value);
             }

@@ -15,9 +15,9 @@ namespace Veterinaria.App.Presentacion.Pages
         
         public IEnumerable<EstadodeSalud> EstadodeSalud{get;set;}
 
-        public ListasaludModel(IRepositorioEstadosalud repositorioEstadosalud)
+        public ListasaludModel()
         {
-            this.repositorioEstadosalud=repositorioEstadosalud;
+            this.repositorioEstadosalud=new RepositorioEstadosalud(new Veterinaria.App.Persistencia.AppContext());
         } 
         
     

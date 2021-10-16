@@ -1,0 +1,48 @@
+﻿@page
+@model Veterinaria.App.Presentacion.Pages.Delete_saludModel
+@{
+}
+<h2>Borrando el estado de salud:@Model.estadodeSalud.id</h2>
+<form method="post">
+    <input type="hidden" asp-for="estadodeSalud.id"/>
+    
+    <div>
+        <label asp-for="estadodeSalud.temperatura"></label>
+        <input asp-for="estadodeSalud.temperatura" class="form-control"/>
+        <span class="textdanger" asp-validation-for="estadodeSalud.temperatura"></span>
+    </div>
+    <div>
+        <label asp-for="estadodeSalud.Frecu_Respi"></label>
+        <input asp-for="estadodeSalud.Frecu_Respi" class="form-control"/>
+        <span class="textdanger" asp-validation-for="estadodeSalud.Frecu_Respi"></span>
+    </div>
+    <div>
+        <label asp-for="estadodeSalud.Frecu_Cardia"></label>
+        <input asp-for="estadodeSalud.Frecu_Cardia" class="form-control"/>
+        <span class="textdanger" asp-validation-for="estadodeSalud.Frecu_Cardia"></span>
+    </div>
+    <div>
+        <label asp-for="estadodeSalud.Estado_Animo"></label>
+        <input asp-for="estadodeSalud.Estado_Animo" class="form-control"/>
+        <span class="textdanger" asp-validation-for="estadodeSalud.Estado_Animo"></span>
+    </div>
+    <div>
+        <label asp-for="estadodeSalud.Peso"></label>
+        <input asp-for="estadodeSalud.Peso" class="form-control"/>
+        <span class="textdanger" asp-validation-for="estadodeSalud.Peso"></span>
+    </div>
+    <div>
+        <label asp-for="estadodeSalud.masco_estadosalud"></label>
+        <input asp-for="estadodeSalud.masco_estadosalud" class="form-control"/>
+        <span class="textdanger" asp-validation-for="estadodeSalud.masco_estadosalud"></span>
+    </div>
+    <div>
+        <label asp-for="estadodeSalud.visit"></label>
+        <input asp-for="estadodeSalud.visit" class="form-control"/>
+        <span class="textdanger" asp-validation-for="estadodeSalud.visit"></span>
+    </div>
+    <button type="submit" class="btn btn-primary">Eliminar</button>
+</form>
+<a asp-page="./Listasalud" class="btn-default">lista de estados de salud</a>
+
+

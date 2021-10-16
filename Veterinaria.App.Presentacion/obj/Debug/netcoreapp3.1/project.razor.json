@@ -14407,6 +14407,11 @@
       "FileKind": "mvc"
     },
     {
+      "FilePath": "c:\\proyecto\\Proyecto-MASCOTAFELIZ-CYBERLOWE\\Veterinaria.App.Presentacion\\Pages\\Vet_Veterinario\\Editar_Vet.cshtml",
+      "TargetPath": "Pages\\Vet_Veterinario\\Editar_Vet.cshtml",
+      "FileKind": "mvc"
+    },
+    {
       "FilePath": "c:\\proyecto\\Proyecto-MASCOTAFELIZ-CYBERLOWE\\Veterinaria.App.Presentacion\\Pages\\Shared\\_ValidationScriptsPartial.cshtml",
       "TargetPath": "Pages\\Shared\\_ValidationScriptsPartial.cshtml",
       "FileKind": "mvc"
@@ -14442,6 +14447,16 @@
       "FileKind": "mvc"
     },
     {
+      "FilePath": "c:\\proyecto\\Proyecto-MASCOTAFELIZ-CYBERLOWE\\Veterinaria.App.Presentacion\\Pages\\Vet_Veterinario\\Lista_Vet.cshtml",
+      "TargetPath": "Pages\\Vet_Veterinario\\Lista_Vet.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\proyecto\\Proyecto-MASCOTAFELIZ-CYBERLOWE\\Veterinaria.App.Presentacion\\Pages\\Vet_Veterinario\\Detalles_Vet.cshtml",
+      "TargetPath": "Pages\\Vet_Veterinario\\Detalles_Vet.cshtml",
+      "FileKind": "mvc"
+    },
+    {
       "FilePath": "c:\\proyecto\\Proyecto-MASCOTAFELIZ-CYBERLOWE\\Veterinaria.App.Presentacion\\Pages\\Vet_Propietario\\Edit.cshtml",
       "TargetPath": "Pages\\Vet_Propietario\\Edit.cshtml",
       "FileKind": "mvc"
@@ -14457,6 +14472,26 @@
       "FileKind": "mvc"
     },
     {
+      "FilePath": "c:\\proyecto\\Proyecto-MASCOTAFELIZ-CYBERLOWE\\Veterinaria.App.Presentacion\\Pages\\Vet_Mascota\\Delete_M.cshtml",
+      "TargetPath": "Pages\\Vet_Mascota\\Delete_M.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\proyecto\\Proyecto-MASCOTAFELIZ-CYBERLOWE\\Veterinaria.App.Presentacion\\Pages\\Vet_Veterinario\\Borrar_Vet.cshtml",
+      "TargetPath": "Pages\\Vet_Veterinario\\Borrar_Vet.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\proyecto\\Proyecto-MASCOTAFELIZ-CYBERLOWE\\Veterinaria.App.Presentacion\\Pages\\Vet_Propietario\\Delete.cshtml",
+      "TargetPath": "Pages\\Vet_Propietario\\Delete.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\proyecto\\Proyecto-MASCOTAFELIZ-CYBERLOWE\\Veterinaria.App.Presentacion\\Pages\\salud\\Detalles_salud.cshtml",
+      "TargetPath": "Pages\\salud\\Detalles_salud.cshtml",
+      "FileKind": "mvc"
+    },
+    {
       "FilePath": "c:\\proyecto\\Proyecto-MASCOTAFELIZ-CYBERLOWE\\Veterinaria.App.Presentacion\\Pages\\Vet_Mascota\\Lista.cshtml",
       "TargetPath": "Pages\\Vet_Mascota\\Lista.cshtml",
       "FileKind": "mvc"
@@ -14467,8 +14502,18 @@
       "FileKind": "mvc"
     },
     {
+      "FilePath": "c:\\proyecto\\Proyecto-MASCOTAFELIZ-CYBERLOWE\\Veterinaria.App.Presentacion\\Pages\\salud\\Edit_salud.cshtml",
+      "TargetPath": "Pages\\salud\\Edit_salud.cshtml",
+      "FileKind": "mvc"
+    },
+    {
       "FilePath": "c:\\proyecto\\Proyecto-MASCOTAFELIZ-CYBERLOWE\\Veterinaria.App.Presentacion\\Pages\\Vet_Mascota\\Details_Mas.cshtml",
       "TargetPath": "Pages\\Vet_Mascota\\Details_Mas.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\proyecto\\Proyecto-MASCOTAFELIZ-CYBERLOWE\\Veterinaria.App.Presentacion\\Pages\\salud\\Delete_salud.cshtml",
+      "TargetPath": "Pages\\salud\\Delete_salud.cshtml",
       "FileKind": "mvc"
     }
   ],

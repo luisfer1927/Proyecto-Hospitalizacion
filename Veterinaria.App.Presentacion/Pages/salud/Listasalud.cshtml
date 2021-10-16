@@ -26,31 +26,38 @@
         <td id="titulos">visita</td>
         <td id="titulos">Detalles</td>
         <td id="titulos">Editar</td>
+        <td id="titulos">Eliminar</td>
         
     </tr>
     <br>
-    @foreach (var Mascota in Model.EstadodeSalud)
+    @foreach (var salud in Model.EstadodeSalud)
     {
 
         <tr>
-            <td>@Mascota.id</td>
-            <td>@Mascota.temperatura</td>
-            <td>@Mascota.Frecu_Respi</td>
-            <td>@Mascota.Frecu_Cardia</td>
-            <td>@Mascota.Estado_Animo</td>
-            <td>@Mascota.recomendacion</td>
-            <td>@Mascota.Peso</td>
-            <td>@Mascota.masco_estadosalud.Nombre</td>
-            <td>@Mascota.visit.id</td>
+            <td>@salud.id</td>
+            <td>@salud.temperatura</td>
+            <td>@salud.Frecu_Respi</td>
+            <td>@salud.Frecu_Cardia</td>
+            <td>@salud.Estado_Animo</td>
+            <td>@salud.recomendacion</td>
+            <td>@salud.Peso</td>
+            <td>@salud.masco_estadosalud</td>
+            <td>@salud.visit</td>
             <br>
             <td>
-            <a class="btn btn-primary table-btn" asp-page="./Details_Mas" asp-route-Mascotaid="@Mascota.id">
+            <a class="btn btn-primary table-btn" asp-page="./Detalles_salud" asp-route-EstadodeSaludId="@salud.id">
             <i class="fas fa-info-circle fa-lg"></i>
             </a>
             </td>
             <td>
-                <a class="btn btn-primary table-btn" asp-page="./Edit" asp-route-propietarioId="@Mascota.id">
+                <a class="btn btn-primary table-btn" asp-page="./Edit_salud" asp-route-EstadodeSaludId="@salud.id">
             <i class="fas fa-address-book fa-lg"></i>
+            </a>
+            
+            </td>
+            <td>
+                <a class="btn btn-primary table-btn" asp-page="./Delete_salud" asp-route-EstadodeSaludId="@salud.id">
+            <i class="fas fa-trash-alt fa-lg"></i>
             </a>
             
             </td>
@@ -58,4 +65,6 @@
         </tr>
     }
 </table>
-<a asp-page="./Listasalud" class="btn btn-primary">Agregar</a>
+<a asp-page="./Edit_salud" class="btn btn-primary">Agregar
+<i class="fas fa-user-plus fa-lg"></i> 
+</a>

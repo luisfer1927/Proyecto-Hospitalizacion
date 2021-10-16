@@ -833,3 +833,12 @@ C:\MascotaFeliz\Proyecto-MASCOTAFELIZ-CYBERLOWE-8\Veterinaria.App.Presentacion\o
 C:\MascotaFeliz\Proyecto-MASCOTAFELIZ-CYBERLOWE-8\Veterinaria.App.Presentacion\obj\Debug\netcoreapp3.1\Razor\Pages\Vet_Veterinario\Editar_Vet.cshtml.g.cs
 C:\MascotaFeliz\Proyecto-MASCOTAFELIZ-CYBERLOWE-8\Veterinaria.App.Presentacion\obj\Debug\netcoreapp3.1\Razor\Pages\Vet_Veterinario\Lista_Vet.cshtml.g.cs
 C:\MascotaFeliz\Proyecto-MASCOTAFELIZ-CYBERLOWE-8\Veterinaria.App.Presentacion\obj\Debug\netcoreapp3.1\Razor\Pages\Vet_Veterinario\Borrar_Vet.cshtml.g.cs
+C:\proyecto\Proyecto-MASCOTAFELIZ-CYBERLOWE\Veterinaria.App.Presentacion\obj\Debug\netcoreapp3.1\Razor\Pages\Vet_Propietario\Delete.cshtml.g.cs
+C:\proyecto\Proyecto-MASCOTAFELIZ-CYBERLOWE\Veterinaria.App.Presentacion\obj\Debug\netcoreapp3.1\Razor\Pages\Vet_Veterinario\Borrar_Vet.cshtml.g.cs
+C:\proyecto\Proyecto-MASCOTAFELIZ-CYBERLOWE\Veterinaria.App.Presentacion\obj\Debug\netcoreapp3.1\Razor\Pages\Vet_Veterinario\Detalles_Vet.cshtml.g.cs
+C:\proyecto\Proyecto-MASCOTAFELIZ-CYBERLOWE\Veterinaria.App.Presentacion\obj\Debug\netcoreapp3.1\Razor\Pages\Vet_Veterinario\Editar_Vet.cshtml.g.cs
+C:\proyecto\Proyecto-MASCOTAFELIZ-CYBERLOWE\Veterinaria.App.Presentacion\obj\Debug\netcoreapp3.1\Razor\Pages\Vet_Veterinario\Lista_Vet.cshtml.g.cs
+C:\proyecto\Proyecto-MASCOTAFELIZ-CYBERLOWE\Veterinaria.App.Presentacion\obj\Debug\netcoreapp3.1\Razor\Pages\Vet_Mascota\Delete_M.cshtml.g.cs
+C:\proyecto\Proyecto-MASCOTAFELIZ-CYBERLOWE\Veterinaria.App.Presentacion\obj\Debug\netcoreapp3.1\Razor\Pages\salud\Detalles_salud.cshtml.g.cs
+C:\proyecto\Proyecto-MASCOTAFELIZ-CYBERLOWE\Veterinaria.App.Presentacion\obj\Debug\netcoreapp3.1\Razor\Pages\salud\Edit_salud.cshtml.g.cs
+C:\proyecto\Proyecto-MASCOTAFELIZ-CYBERLOWE\Veterinaria.App.Presentacion\obj\Debug\netcoreapp3.1\Razor\Pages\salud\Delete_salud.cshtml.g.cs

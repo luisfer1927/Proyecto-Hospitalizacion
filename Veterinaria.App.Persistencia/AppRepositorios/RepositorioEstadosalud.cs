@@ -8,37 +8,53 @@ namespace Veterinaria.App.Persistencia.AppRepositorios
     public class RepositorioEstadosalud : IRepositorioEstadosalud
     {
 
-         List<EstadodeSalud> salud;
+        private readonly AppContext _appContext;
 
-        public RepositorioEstadosalud()
+        public RepositorioEstadosalud(AppContext appContext)
         {
-            salud = new List<EstadodeSalud>()
+            _appContext = appContext;
+        }
+
+        EstadodeSalud IRepositorioEstadosalud.Addsalud(EstadodeSalud salud)
+        {
+             var EstadoAdicionado = _appContext.estadosalud.Add(salud);
+            _appContext.SaveChanges();
+            return EstadoAdicionado.Entity;
+        }
+         void IRepositorioEstadosalud.Deletesalud(int idEstadodeSalud)
+        {
+            var EstadoEncontrado = _appContext.estadosalud.FirstOrDefault(c => c.id == idEstadodeSalud);
+            if (EstadoEncontrado == null)
+                return;
+            _appContext.estadosalud.Remove(EstadoEncontrado);
+            _appContext.SaveChanges();
+        }
+        IEnumerable<EstadodeSalud> IRepositorioEstadosalud.GetAll()
+        {
+           return _appContext.estadosalud;
+        }
+        EstadodeSalud IRepositorioEstadosalud.Getsalud(int Estadosaludid)
+        {
+            return _appContext.estadosalud.FirstOrDefault(c => c.id == Estadosaludid);
+        }
+         EstadodeSalud IRepositorioEstadosalud.Updatesalud(EstadodeSalud salud)
+        {
+            var estadosalud= _appContext.estadosalud.SingleOrDefault(r => r.id==salud.id);
+            if(estadosalud!=null)
             {
-               /* new EstadodeSalud{id=1,temperatura=33,Frecu_Respi=33,Frecu_Cardia=33,Estado_Animo="desanimado",recomendacion="mejorar alimentacion",Peso=12,masco_estadosalud=new Mascota{id=1,Nombre="TROSKI",Edad="15",Tipo_Mascota="PERRO",Estado_Salud="SALUDABLE",dueño="MATEO"},visit=new Visita{id=1,Fecha="12-07-18",Motivo_Visita="estado salud",veterinario_visita=new Veterinario{Id=1,Nombre="Mateo",Apellidos="Salazar Ortiz",Telefono="3182909852",Targeta_Profesional=123}}},
-                new EstadodeSalud{id=2,temperatura=33,Frecu_Respi=33,Frecu_Cardia=33,Estado_Animo="Feliz",recomendacion="segguir asi",Peso=7,masco_estadosalud=new Mascota{id=2,Nombre="Firulais",Edad="15",Tipo_Mascota="PERRO",Estado_Salud="SALUDABLE",dueño="MATEO"},visit=new Visita{id=1,Fecha="12-08-18",Motivo_Visita="estado salud",veterinario_visita=new Veterinario{Id=2,Nombre="Mateo",Apellidos="Salazar Ortiz",Telefono="3182909852",Targeta_Profesional=123}}},
-                new EstadodeSalud{id=3,temperatura=33,Frecu_Respi=33,Frecu_Cardia=33,Estado_Animo="bien",recomendacion="limpiar la boca seguido",Peso=11,masco_estadosalud=new Mascota{id=3,Nombre="luna",Edad="15",Tipo_Mascota="PERRO",Estado_Salud="SALUDABLE",dueño="MATEO"},visit=new Visita{id=1,Fecha="12-010-18",Motivo_Visita="estado salud",veterinario_visita=new Veterinario{Id=3,Nombre="Mateo",Apellidos="Salazar Ortiz",Telefono="3182909852",Targeta_Profesional=123}}},
-            */
-            };
-        }
-        public EstadodeSalud Addsalud(EstadodeSalud salud)
-        {
-            throw new System.NotImplementedException();
-        }
-        public void Deletesalud(int idEstadodeSalud)
-        {
-            throw new System.NotImplementedException();
-        }
-        public IEnumerable<EstadodeSalud> GetAll()
-        {
-           return salud;
-        }
-        public EstadodeSalud Getsalud(int idsalud)
-        {
-            throw new System.NotImplementedException();
-        }
-        public EstadodeSalud Updatesalud(EstadodeSalud salud)
-        {
-            throw new System.NotImplementedException();
+                estadosalud.id=salud.id;
+                estadosalud.temperatura=salud.temperatura;
+                estadosalud.Frecu_Respi=salud.Frecu_Respi;
+                estadosalud.Frecu_Cardia=salud.Frecu_Cardia;
+                estadosalud.Estado_Animo=salud.Estado_Animo;
+                estadosalud.recomendacion=salud.recomendacion;
+                estadosalud.Peso=salud.Peso;
+                estadosalud. masco_estadosalud=salud. masco_estadosalud;
+                estadosalud.visit=salud.visit;
+
+                _appContext.SaveChanges();
+            }
+            return estadosalud ;
         }
         public EstadodeSalud Updatesalud(EstadodeSalud salud, int idsalud)
         {

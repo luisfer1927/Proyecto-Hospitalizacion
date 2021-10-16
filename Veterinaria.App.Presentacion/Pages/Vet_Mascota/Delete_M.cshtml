@@ -1,0 +1,41 @@
+﻿@page
+@model Veterinaria.App.Presentacion.Pages.Delete_M
+@{
+}
+<h2>Eliminando la mascota:@Model.Mascota.Nombre</h2>
+<form method="post">
+    <input type="hidden" asp-for="Mascota.id"/>
+    
+    <div>
+        <label asp-for="Mascota.Nombre"></label>
+        <input asp-for="Mascota.Nombre" class="form-control"/>
+        <span class="textdanger" asp-validation-for="Mascota.Nombre"></span>
+    </div>
+    <div>
+        <label asp-for="Mascota.Edad"></label>
+        <input asp-for="Mascota.Edad" class="form-control"/>
+        <span class="textdanger" asp-validation-for="Mascota.Edad"></span>
+    </div>
+    <div>
+        <label asp-for="Mascota.Tipo_Mascota"></label>
+        <input asp-for="Mascota.Tipo_Mascota" class="form-control"/>
+        <span class="textdanger" asp-validation-for="Mascota.Tipo_Mascota"></span>
+    </div>
+    <div>
+        <label asp-for="Mascota.Estado_Salud"></label>
+        <input asp-for="Mascota.Estado_Salud" class="form-control"/>
+        <span class="textdanger" asp-validation-for="Mascota.Estado_Salud"></span>
+    </div>
+    <div>
+        <label asp-for="Mascota.dueño"></label>
+        <input asp-for="Mascota.dueño" class="form-control"/>
+        <span class="textdanger" asp-validation-for="Mascota.dueño"></span>
+    </div>
+    <div>
+        <label asp-for="Mascota.Nombre_dueño"></label>
+        <input asp-for="Mascota.Nombre_dueño" class="form-control"/>
+        <span class="textdanger" asp-validation-for="Mascota.Nombre_dueño"></span>
+    </div>
+    <button type="submit" class="btn btn-primary">Borrar</button>
+</form>
+<a asp-page="./Lista" class="btn-default">lista de mascotas</a>

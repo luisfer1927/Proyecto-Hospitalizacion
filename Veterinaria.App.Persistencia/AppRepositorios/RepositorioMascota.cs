@@ -47,6 +47,7 @@ namespace Veterinaria.App.Persistencia.AppRepositorios
                 Mascotas.Tipo_Mascota=mascotaactualizado.Tipo_Mascota;
                 Mascotas.Estado_Salud=mascotaactualizado.Estado_Salud;
                 Mascotas.dueño=mascotaactualizado.dueño;
+                Mascotas.Nombre_dueño=mascotaactualizado.Nombre_dueño;
                 
                 _appContext.SaveChanges();
             }

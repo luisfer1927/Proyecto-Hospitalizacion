@@ -10,8 +10,8 @@ namespace Veterinaria.App.Dominio
       public string Estado_Animo{get;set;}
       public string recomendacion{get;set;}
       public double Peso{get;set;}
-      public Mascota masco_estadosalud{get;set;}
-      public Visita visit{get;set;}
+      public int masco_estadosalud{get;set;}
+      public int visit{get;set;}
       
   }  
 }
