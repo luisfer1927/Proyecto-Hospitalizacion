@@ -34,8 +34,8 @@ a {
 
 .btn-primary {
   color: #fff;
-  background-color: #1b6ec2;
-  border-color: #1861ac;
+  background-color: #8400ff;
+  border-color: #18263A;
 }
 
 .nav-pills .nav-link.active, .nav-pills .show > .nav-link {
@@ -149,4 +149,10 @@ body {
   white-space: nowrap;
   line-height: 10px; /* Vertically center the text there */
   background-color: rgb(17, 24, 63);
+}
+.busqueda
+{
+  color: #fff;
+  background-color: #8400ff;
+  border-color: #18263A;
 }
